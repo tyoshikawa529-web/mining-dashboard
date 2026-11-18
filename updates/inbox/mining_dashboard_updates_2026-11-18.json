@@ -1,0 +1,480 @@
+{
+  "schema": "mining-dashboard-v0.2",
+  "as_of": "2026-11-18",
+  "verified_at": "2026-11-18T13:51:00Z",
+  "baseline_snapshot": "2026-11-17 daily report, consolidated offline index v1.5",
+  "depends_on": [
+    "mining_dashboard_updates_2026-11-17.json"
+  ],
+  "data_freshness": "2026-11-17 company disclosures and 2026-11-18 primary issuer/sector updates; 2026-11-17 LME official and futures settlements; 2026-11-18 10:50 GMT intraday precious metals (not closes)",
+  "changes": [
+    {
+      "id": "ca-20261117-pl-gold-underground-correction",
+      "page": "Canada",
+      "country": "Canada",
+      "name": "PL Gold Mine",
+      "published": "2026-11-17",
+      "verified_on": "2026-11-18",
+      "priority": "P1",
+      "change_type": "Mine schedule correction / NI 43-101 PEA filing",
+      "previous": "2026-10-14会社ニュースリリースでは地下採掘開始を2028年半ば、地下採掘期間を2028–2037年と記載。",
+      "current": "2026-11-17会社が誤記を訂正。地下開発2029-01開始、地下鉱石生産2029-03開始、地下採掘期間2029–2037年。2028年は地下産出0t。露天掘り2028–2030年・2028–2037年の全体Mine Life 10年・初期CAPEX US$53.4Mは変更なし。",
+      "values": {
+        "old_underground_production_start": "mid-2028 (incorrect October 14 statement)",
+        "new_underground_development_start": "2029-01",
+        "new_underground_ore_production_start": "2029-03",
+        "mine_life_start_year": 2028,
+        "mine_life_end_year": 2037,
+        "open_pit_years": "2028-2030",
+        "preproduction_capex_USD_million": 53.4,
+        "capex_change": false,
+        "full_year_gold_koz_average_PEA": 62.2
+      },
+      "confidence": "A",
+      "source_urls": [
+        "https://minnovacorp.s0.adnetcms.com/news/minnova-corp-announces-filing-of-ni-43-101-technical-report-on-the-preliminary-economic-assessment-for-pl-gold-mine-and/"
+      ],
+      "equipment_impact": "坑内設備・掘削機、LHD、坑内運搬・換気等の立上げ時期を2029年へ修正。初期投資総額や経済性の再試算は不要（会社説明）。露天掘りの2028年着工想定は変わらず、FID前。",
+      "caveat": "会社訂正は以前のリリースの誤記であり、PEA内部モデルを遅延させる新規経営判断ではない。現実の建設確約ではない。"
+    },
+    {
+      "id": "ca-20261118-benoist-mre",
+      "page": "Canada",
+      "country": "Canada",
+      "name": "Benoist Gold Project",
+      "published": "2026-11-18",
+      "verified_on": "2026-11-18",
+      "priority": "P2",
+      "change_type": "Updated NI 43-101 Mineral Resource Estimate",
+      "previous": "2020年MREなど旧推定が存在。旧推定と2026年はカットオフ・地下採掘形状制約が異なるため、単純な増減率の比較不可。",
+      "current": "新MRE（有効日2026-10-14）: Indicated 2.072Mt @2.26g/t Au=150,700oz、Inferred 1.6206Mt @1.67g/t Au=86,900oz。地下ロングホール採掘を想定した概略形状、カットオフ1.2g/t Au。PEA/PFS/FS未実施。",
+      "values": {
+        "estimate_effective_date": "2026-10-14",
+        "indicated_tonnes": 2072000,
+        "indicated_gold_gpt": 2.26,
+        "indicated_gold_oz": 150700,
+        "inferred_tonnes": 1620600,
+        "inferred_gold_gpt": 1.67,
+        "inferred_gold_oz": 86900,
+        "gold_cutoff_gpt": 1.2,
+        "conceptual_underground_tpd_low": 4000,
+        "conceptual_underground_tpd_high": 4500,
+        "mine_life_years": null
+      },
+      "confidence": "A",
+      "source_urls": [
+        "https://www.tmxnewsfile.com/release/324583/Epic-Gold-Announces-Updated-Benoist-Gold-Project-Mineral-Resource-Estimate-with-150700-Indicated-Ounces-at-2.26-gt-Au-and-86900-Inferred-Ounces-at-1.67-gt-Au"
+      ],
+      "equipment_impact": "現段階は追加コアドリリング・坑内概念設計需要。PEAもFIDも未実施につき、4,000–4,500t/日の概念処理量を採掘機・プラント確定発注に換算しない。",
+      "caveat": "Mineral Resources（埋蔵量ではない）。過去推定との条件整合性未確認、前年比増加幅を算出しない。"
+    },
+    {
+      "id": "ca-20261117-east-sudbury-zone3",
+      "page": "Canada",
+      "country": "Canada",
+      "name": "East Sudbury Project",
+      "published": "2026-11-17",
+      "verified_on": "2026-11-18",
+      "priority": "P2",
+      "change_type": "New gold mineralized zone / drilling",
+      "previous": "既存のEast-West Pit Zone 2などを探鉱。Zone 3新規金帯未報告。",
+      "current": "CanucがZone 3を発見。SM-26-170孔で8.0m @2.99g/t Au（孔内長）、Zone 2で9.0m @1.23g/t Au。2026年末～2027年初頭の初回MREを計画。鉱区約20,078ha。",
+      "values": {
+        "zone3_drillhole": "SM-26-170",
+        "downhole_m": 8.0,
+        "gold_gpt": 2.99,
+        "zone2_downhole_m": 9.0,
+        "zone2_gold_gpt": 1.23,
+        "claims_hectares": 20078,
+        "maiden_MRE_target": "2026-12 to 2027-01",
+        "true_width_confirmed": false
+      },
+      "confidence": "A",
+      "source_urls": [
+        "https://canucresources.ca/news/canuc-discovers-new-gold-zone-at-east-sudbury-project/"
+      ],
+      "equipment_impact": "探鉱ドリル契約・地球物理探査の潜在需要。初回MRE前の早期探鉱案件で大型建機本体の短期需要は限定的。",
+      "caveat": "記載厚は孔内長で真幅不明。資源量・埋蔵量は未確定。"
+    }
+  ],
+  "market_changes": [
+    {
+      "id": "cm-20261118-platinum-wpic-2026-forecast",
+      "page": "Commodity",
+      "commodity": "Platinum",
+      "published": "2026-11-18",
+      "verified_on": "2026-11-18",
+      "priority": "P1",
+      "metric": "WPIC physical market balance forecast; koz (thousand troy oz)",
+      "previous": "WPIC 2026年需給 +265 koz 供給超過（2026-09-09予測）。2027年予測は未公表。",
+      "current": "WPIC 2026年見通し +468 koz 供給超過（前回比+203 koz）。2027年は新規予測として -279 kozの供給不足（前年差747 kozスイング）。需給差は市場価格予測ではない。",
+      "values": {
+        "forecast_year_2026_surplus_koz_previous": 265,
+        "forecast_year_2026_surplus_koz_current": 468,
+        "revision_koz": 203,
+        "forecast_year_2027_balance_koz": -279,
+        "forecast_year_2027_total_supply_koz": 7418,
+        "forecast_year_2027_total_demand_koz": 7696,
+        "released": "2026-11-18"
+      },
+      "confidence": "A",
+      "source_urls": [
+        "https://platinuminvestment.com/news"
+      ],
+      "equipment_impact": "Pt/PGE生産者（Ni-Cu鉱山の副産物を含む）の中期採算検証。2026年余剰拡大は短期圧力だが2027年不足予想は開発投資を支える可能性。世界需給と鉱山CAPEXは一対一では連動しない。",
+      "caveat": ""
+    },
+    {
+      "id": "cm-20261118-gold-spot-intraday",
+      "page": "Commodity",
+      "commodity": "Gold",
+      "published": "2026-11-18",
+      "verified_on": "2026-11-18",
+      "priority": "P1",
+      "metric": "Spot gold intraday US$/troy oz",
+      "previous": "2026-11-16に約US$3,830/ozの安値（前回既報、2026-11-17終値と直接比較しない）。",
+      "current": "2026-11-18 10:50 GMT現物価格US$3,769.68/oz、前日比約-2.1%。日中安値US$3,757/oz（2025年9月以来の低水準）。確定終値ではない。",
+      "values": {
+        "timestamp_UTC": "2026-11-18T10:50:00Z",
+        "spot_USD_per_oz": 3769.68,
+        "intraday_low_USD_per_oz": 3757.0,
+        "reported_daily_change_pct": -2.1
+      },
+      "confidence": "B",
+      "source_urls": [
+        "https://www.reuters.com/world/india/gold-slides-over-one-year-low-firm-dollar-us-rate-outlook-2026-11-18/"
+      ],
+      "equipment_impact": "Au鉱山の2027年金価前提、AISC余裕・FID感応度を更新。価格が急落しても個社のCAPEX繰延が確定したわけではない。",
+      "caveat": "現物日中値。先物終値やPEA長期価格と混同しない。"
+    },
+    {
+      "id": "cm-20261118-silver-spot-intraday",
+      "page": "Commodity",
+      "commodity": "Silver",
+      "published": "2026-11-18",
+      "verified_on": "2026-11-18",
+      "priority": "P2",
+      "metric": "Spot silver intraday US$/troy oz",
+      "previous": "2026-11-17の日中と比較する同定義の取引終値を本確認では未取得。",
+      "current": "2026-11-18 10:50 GMT現物US$45.79/oz、前日比約-3.4%、2025年10月以来の安値圏。",
+      "values": {
+        "timestamp_UTC": "2026-11-18T10:50:00Z",
+        "spot_USD_per_oz": 45.79,
+        "reported_daily_change_pct": -3.4
+      },
+      "confidence": "B",
+      "source_urls": [
+        "https://www.reuters.com/world/india/gold-slides-over-one-year-low-firm-dollar-us-rate-outlook-2026-11-18/"
+      ],
+      "equipment_impact": "銀主産鉱山・Au/Cu/Zn鉱山副産物クレジットを低下させる価格リスク。",
+      "caveat": ""
+    },
+    {
+      "id": "cm-20261118-platinum-spot-intraday",
+      "page": "Commodity",
+      "commodity": "Platinum",
+      "published": "2026-11-18",
+      "verified_on": "2026-11-18",
+      "priority": "P2",
+      "metric": "Spot platinum intraday US$/troy oz",
+      "previous": "2026-11-17同定義の確定現物終値未取得。",
+      "current": "2026-11-18 10:50 GMT現物US$1,382.26/oz、前日比約-3.4%。WPICの需給報告と市場価格の時間軸は区別。",
+      "values": {
+        "timestamp_UTC": "2026-11-18T10:50:00Z",
+        "spot_USD_per_oz": 1382.26,
+        "reported_daily_change_pct": -3.4
+      },
+      "confidence": "B",
+      "source_urls": [
+        "https://www.reuters.com/world/india/gold-slides-over-one-year-low-firm-dollar-us-rate-outlook-2026-11-18/"
+      ],
+      "equipment_impact": "Ni-Cu-PGE複合鉱山の副産物収益への影響。",
+      "caveat": ""
+    },
+    {
+      "id": "cm-20261118-palladium-spot-intraday",
+      "page": "Commodity",
+      "commodity": "Palladium",
+      "published": "2026-11-18",
+      "verified_on": "2026-11-18",
+      "priority": "P2",
+      "metric": "Spot palladium intraday US$/troy oz",
+      "previous": "2026-11-17同定義の確定現物終値未取得。",
+      "current": "2026-11-18 10:50 GMT現物US$950/oz、前日比約-2.2%。",
+      "values": {
+        "timestamp_UTC": "2026-11-18T10:50:00Z",
+        "spot_USD_per_oz": 950.0,
+        "reported_daily_change_pct": -2.2
+      },
+      "confidence": "B",
+      "source_urls": [
+        "https://www.reuters.com/world/india/gold-slides-over-one-year-low-firm-dollar-us-rate-outlook-2026-11-18/"
+      ],
+      "equipment_impact": "PGE含有鉱山の副産物実現価格リスク。",
+      "caveat": ""
+    },
+    {
+      "id": "cm-20261117-lme-copper-cashask",
+      "page": "Commodity",
+      "commodity": "Copper",
+      "published": "2026-11-17",
+      "verified_on": "2026-11-18",
+      "priority": "P2",
+      "metric": "LME Official cash Ask, USD/metric tonne",
+      "previous": "2026-11-16 LME Cash Ask US$13,375.00/t",
+      "current": "2026-11-17 LME Cash Ask US$13,225.50/t、前営業日比-1.12%。",
+      "values": {
+        "price_date": "2026-11-17",
+        "previous_date": "2026-11-16",
+        "previous_USD_per_t": 13375.0,
+        "current_USD_per_t": 13225.5,
+        "change_pct": -1.12,
+        "market_instrument": "LME Official Cash Ask"
+      },
+      "confidence": "A",
+      "source_urls": [
+        "https://www.lme.com/en/market-data/reports-and-data/lme-official-prices"
+      ],
+      "equipment_impact": "鉱山企業の足元価格感応度の監視。単日変動で設備投資を断定しない。",
+      "caveat": "2026-11-17と11-16のLME同一定義のCash Ask。"
+    },
+    {
+      "id": "cm-20261117-lme-zinc-cashask",
+      "page": "Commodity",
+      "commodity": "Zinc",
+      "published": "2026-11-17",
+      "verified_on": "2026-11-18",
+      "priority": "P2",
+      "metric": "LME Official cash Ask, USD/metric tonne",
+      "previous": "2026-11-16 LME Cash Ask US$3,848.00/t",
+      "current": "2026-11-17 LME Cash Ask US$3,776.00/t、前営業日比-1.87%。",
+      "values": {
+        "price_date": "2026-11-17",
+        "previous_date": "2026-11-16",
+        "previous_USD_per_t": 3848.0,
+        "current_USD_per_t": 3776.0,
+        "change_pct": -1.87,
+        "market_instrument": "LME Official Cash Ask"
+      },
+      "confidence": "A",
+      "source_urls": [
+        "https://www.lme.com/en/market-data/reports-and-data/lme-official-prices"
+      ],
+      "equipment_impact": "鉱山企業の足元価格感応度の監視。単日変動で設備投資を断定しない。",
+      "caveat": "2026-11-17と11-16のLME同一定義のCash Ask。"
+    },
+    {
+      "id": "cm-20261117-lme-nickel-cashask",
+      "page": "Commodity",
+      "commodity": "Nickel",
+      "published": "2026-11-17",
+      "verified_on": "2026-11-18",
+      "priority": "Info",
+      "metric": "LME Official cash Ask, USD/metric tonne",
+      "previous": "2026-11-16 LME Cash Ask US$15,805.00/t",
+      "current": "2026-11-17 LME Cash Ask US$15,790.00/t、前営業日比-0.09%。",
+      "values": {
+        "price_date": "2026-11-17",
+        "previous_date": "2026-11-16",
+        "previous_USD_per_t": 15805.0,
+        "current_USD_per_t": 15790.0,
+        "change_pct": -0.09,
+        "market_instrument": "LME Official Cash Ask"
+      },
+      "confidence": "A",
+      "source_urls": [
+        "https://www.lme.com/en/market-data/reports-and-data/lme-official-prices"
+      ],
+      "equipment_impact": "鉱山企業の足元価格感応度の監視。単日変動で設備投資を断定しない。",
+      "caveat": "2026-11-17と11-16のLME同一定義のCash Ask。"
+    },
+    {
+      "id": "cm-20261117-lme-cobalt-cashask",
+      "page": "Commodity",
+      "commodity": "Cobalt",
+      "published": "2026-11-17",
+      "verified_on": "2026-11-18",
+      "priority": "Info",
+      "metric": "LME Official cash Ask, USD/metric tonne",
+      "previous": "2026-11-16 LME Cash Ask US$33,080.00/t",
+      "current": "2026-11-17 LME Cash Ask US$33,080.00/t、前営業日比+0.00%。",
+      "values": {
+        "price_date": "2026-11-17",
+        "previous_date": "2026-11-16",
+        "previous_USD_per_t": 33080.0,
+        "current_USD_per_t": 33080.0,
+        "change_pct": 0.0,
+        "market_instrument": "LME Official Cash Ask"
+      },
+      "confidence": "A",
+      "source_urls": [
+        "https://www.lme.com/en/market-data/reports-and-data/lme-official-prices"
+      ],
+      "equipment_impact": "鉱山企業の足元価格感応度の監視。単日変動で設備投資を断定しない。",
+      "caveat": "2026-11-17と11-16のLME同一定義のCash Ask。"
+    },
+    {
+      "id": "cm-20261117-oil-brent-settlement",
+      "page": "Commodity",
+      "commodity": "Brent",
+      "published": "2026-11-17",
+      "verified_on": "2026-11-18",
+      "priority": "Info",
+      "metric": "Front-month futures settlement USD/bbl",
+      "previous": "2026-11-16先物終値 US$92.44/bbl",
+      "current": "2026-11-17先物終値 US$93.14/bbl、前日比+0.76%。",
+      "values": {
+        "price_date": "2026-11-17",
+        "previous_date": "2026-11-16",
+        "previous_USD_per_bbl": 92.44,
+        "current_USD_per_bbl": 93.14,
+        "change_pct": 0.76
+      },
+      "confidence": "B",
+      "source_urls": [
+        "https://www.reuters.com/business/energy/oil-slips-supply-surplus-outlook-despite-gulf-tensions-2026-11-17/"
+      ],
+      "equipment_impact": "Oil Sands事業者の実現価格に対する中期感応度を監視。WCS同条件の差分は未取得。",
+      "caveat": "先物終値。2026-11-18取引中価格と混在させない。"
+    },
+    {
+      "id": "cm-20261117-oil-wti-settlement",
+      "page": "Commodity",
+      "commodity": "WTI",
+      "published": "2026-11-17",
+      "verified_on": "2026-11-18",
+      "priority": "Info",
+      "metric": "Front-month futures settlement USD/bbl",
+      "previous": "2026-11-16先物終値 US$85.72/bbl",
+      "current": "2026-11-17先物終値 US$86.01/bbl、前日比+0.34%。",
+      "values": {
+        "price_date": "2026-11-17",
+        "previous_date": "2026-11-16",
+        "previous_USD_per_bbl": 85.72,
+        "current_USD_per_bbl": 86.01,
+        "change_pct": 0.34
+      },
+      "confidence": "B",
+      "source_urls": [
+        "https://www.reuters.com/business/energy/oil-slips-supply-surplus-outlook-despite-gulf-tensions-2026-11-17/"
+      ],
+      "equipment_impact": "Oil Sands事業者の実現価格に対する中期感応度を監視。WCS同条件の差分は未取得。",
+      "caveat": "先物終値。2026-11-18取引中価格と混在させない。"
+    }
+  ],
+  "map_updates": {
+    "mines": [
+      {
+        "country": "Canada",
+        "name": "PL Gold Mine",
+        "commodity": "Gold",
+        "method": "Open pit (planned 2028–2030); underground (planned from 2029)",
+        "status": "Development / PEA filed; pre-FID",
+        "owner": "Minnova Corp. (100%)",
+        "operator": "Minnova Corp. (proponent; not operating)",
+        "output": "2026 PEA model average 62.2 koz gold/year during 2028–2037; not producing",
+        "life": "10 years modelled (2028–2037; PEA, not reserves-based)",
+        "resource": "2026 NI 43-101 MRE on file; this update does not revise resources",
+        "nextstep": "Underground development 2029-01; first underground mineralized ore 2029-03; evaluate PFS, permits, financing and FID",
+        "source": "https://minnovacorp.s0.adnetcms.com/news/minnova-corp-announces-filing-of-ni-43-101-technical-report-on-the-preliminary-economic-assessment-for-pl-gold-mine-and/"
+      },
+      {
+        "country": "Canada",
+        "name": "Benoist Gold Project",
+        "commodity": "Gold; Copper; Silver",
+        "method": "Conceptual underground long-hole mining only (MRE RPEEE assumption)",
+        "status": "Exploration / updated MRE; PEA not conducted",
+        "owner": "Epic Gold Corp.",
+        "operator": "Epic Gold Corp. (exploration)",
+        "output": "Not producing; conceptual 4,000–4,500 tpd is NOT mine-plan or guidance",
+        "life": "Not established; no PEA/PFS/FS",
+        "resource": "2026 MRE Indicated 2.072Mt @2.26g/t Au (150.7koz); Inferred 1.6206Mt @1.67g/t Au (86.9koz); non-reserves",
+        "nextstep": "Submit supporting NI 43-101 within 45 days; infill and depth drilling and geotechnical work; economic study not scheduled",
+        "source": "https://www.tmxnewsfile.com/release/324583/Epic-Gold-Announces-Updated-Benoist-Gold-Project-Mineral-Resource-Estimate-with-150700-Indicated-Ounces-at-2.26-gt-Au-and-86900-Inferred-Ounces-at-1.67-gt-Au"
+      },
+      {
+        "country": "Canada",
+        "name": "East Sudbury Project",
+        "commodity": "Gold; Copper; Nickel (exploration targets)",
+        "method": "Exploration (mine method undetermined)",
+        "status": "Exploration / new Zone 3 gold intersection",
+        "owner": "Canuc Resources Corporation (100%)",
+        "operator": "Canuc Resources Corporation (exploration)",
+        "output": "Not producing",
+        "life": "Not established; first MRE pending",
+        "resource": "No MRE published yet; Zone 3 drill SM-26-170 8m @2.99g/t gold (downhole; true width not known)",
+        "nextstep": "Maiden MRE expected 2026-12 to 2027-01; additional 7 assays pending and new IOCG drilling planned by 2027-01",
+        "source": "https://canucresources.ca/news/canuc-discovers-new-gold-zone-at-east-sudbury-project/"
+      }
+    ],
+    "coordinates": []
+  },
+  "coverage": {
+    "countries": {
+      "Canada": "新たな重要な3案件を確認（PL Gold訂正、Benoist MRE、East Sudbury探鉱）",
+      "Mongolia": "新たな裏付けある11/17–18重要差分は今回の検索範囲で確認できず",
+      "Finland": "新たな裏付けある11/17–18重要差分は今回の検索範囲で確認できず",
+      "Alaska": "新たな裏付けある11/17–18重要差分は今回の検索範囲で確認できず"
+    },
+    "monitored_commodities": [
+      "Copper",
+      "Gold",
+      "Silver",
+      "Zinc",
+      "Nickel",
+      "Iron ore",
+      "Coking coal",
+      "Thermal coal",
+      "Lithium",
+      "Uranium",
+      "Brent",
+      "WTI",
+      "WCS",
+      "Potash",
+      "Molybdenum",
+      "Cobalt",
+      "Platinum",
+      "Palladium",
+      "Chromite",
+      "Graphite"
+    ],
+    "new_verified_market_series": [
+      "Platinum balance 2026/2027",
+      "Gold spot 2026-11-18",
+      "Silver spot 2026-11-18",
+      "Platinum spot 2026-11-18",
+      "Palladium spot 2026-11-18",
+      "Copper LME 2026-11-17",
+      "Zinc LME 2026-11-17",
+      "Nickel LME 2026-11-17",
+      "Cobalt LME 2026-11-17",
+      "Brent front-month settle 2026-11-17",
+      "WTI front-month settle 2026-11-17"
+    ],
+    "not_verified_new_same_basis": [
+      "Iron ore",
+      "Coking coal",
+      "Thermal coal",
+      "Lithium",
+      "Uranium",
+      "WCS",
+      "Potash",
+      "Molybdenum",
+      "Chromite",
+      "Graphite"
+    ],
+    "note": "指定20品目の現物価格を一律に確定したものではない。重要な予測改訂を優先し、データ取得不可は未取得として扱う。",
+    "cutoff": "2026-11-18T13:51:00Z"
+  },
+  "integration": {
+    "target_pages": [
+      "Canada",
+      "Commodity",
+      "Mine Location Map"
+    ],
+    "writes_to_published_dashboard": false,
+    "github_access": "Connected but only unrelated private ma-strategy-agent repository visible; no mining-dashboard publication target verified",
+    "coordinates_rule": "No coordinates added; verified exact site/project point not found for these three.",
+    "data_model": "Canonical mining_data_latest.json should be committed by verified writable hosting connector; otherwise offline bundle only."
+  }
+}
