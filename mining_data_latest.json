@@ -1,0 +1,2115 @@
+{
+  "as_of": "2026-11-18",
+  "schema": "mining-dashboard-consolidated-v1",
+  "baseline": "2026-11-12 v1.4; later daily deltas",
+  "map_updates": {
+    "mines": [
+      {
+        "country": "Alaska",
+        "name": "Estelle Gold & Critical Minerals Project",
+        "commodity": "Gold; Antimony",
+        "method": "Open pit (gold planned); pilot antimony mining",
+        "status": "Development / Exploration",
+        "owner": "Nova Minerals 85% / AK Minerals 15% (historical primary filing; verify current legal structure)",
+        "operator": "Nova Minerals / Alaska Range Resources",
+        "output": "Sb pilot refinery target <=600 t/y in 2027 at separate Port MacKenzie facility; gold not operating",
+        "life": "Not fixed; gold PFS under development",
+        "resource": "Gold S-K1300 pit-constrained 5.2Moz Au (company website; includes resources, NOT reserves)",
+        "nextstep": "2027 pilot antimony program; Estelle gold PFS/FID later; Port MacKenzie front-end 216,000 t/y",
+        "source": "https://rss.globenewswire.com/news-release/2026/11/13/3402455/0/en/nova-minerals-reports-strong-quarterly-progress-secures-final-antimony-permits-advancing-towards-2027-production.html"
+      },
+      {
+        "country": "Canada",
+        "name": "Ducros Nickel Project",
+        "commodity": "Nickel; Copper; Cobalt; PGE",
+        "method": "Exploration (future method undetermined)",
+        "status": "Exploration",
+        "owner": "Aurbis Resources (through wholly-owned Universal Nickel; spinout PROPOSED, not closed)",
+        "operator": "Universal Nickel (subsidiary)",
+        "output": "Not producing",
+        "life": "Not estimated",
+        "resource": "No mineral resource / reserves estimated; 44 claims",
+        "nextstep": "Proposed shareholder vote 2026-12-18, effective target 2027 Q1",
+        "source": "https://www.newsfile-prod.tmx.cloud/release/324041/Aurbis-Resources-Announces-Arrangement-Agreement-for-Proposed-SpinOut-of-Universal-Nickel"
+      },
+      {
+        "country": "Canada",
+        "name": "Owl Creek Copper-Gold Project",
+        "commodity": "Copper; Gold",
+        "method": "Exploration (porphyry; mining method not determined)",
+        "status": "Exploration",
+        "owner": "Beyond Minerals 100%",
+        "operator": "Beyond Minerals",
+        "output": "Not producing",
+        "life": "Not estimated",
+        "resource": "No reserve disclosed, 3,522 ha claim area",
+        "nextstep": "MYAB permit: 10 drill pads max; planned 2,500-3,200 m drilling subject to funds",
+        "source": "https://beyondminerals.ca/news/beyond-minerals-secures-drill-permit-for-owl-creek-copper-gold-porphyry-project-in-southern-british-columbia-files-amended-offering-document-for-life-offering-and-announces-warrant-extension"
+      },
+      {
+        "country": "Canada",
+        "name": "Goldboro Gold Project",
+        "commodity": "Gold",
+        "method": "Open pit (planned)",
+        "status": "Development / Early works (FID pending)",
+        "owner": "NexGold Mining",
+        "operator": "NexGold Mining",
+        "output": "Not producing; no 2026 gold production confirmed",
+        "life": "Updated FS expected 2026 Q4; previous 2022 FS life 10.9 years (do not treat as revised)",
+        "resource": "Updated resources and FS pending Q4 2026",
+        "nextstep": "Q4 revised FS / possible late-2026 board FID; mechanical & electrical procurement packages issued",
+        "source": "https://www.globenewswire.com/news-release/2026/11/13/3402584/0/en/nexgold-reports-q3-2026-financial-and-operating-results.html"
+      },
+      {
+        "country": "Canada",
+        "name": "Highland Valley Copper",
+        "commodity": "Copper / Molybdenum",
+        "method": "Open pit",
+        "status": "Operating at reduced capacity per Teck 2026-10-24; strike ongoing per BCFED current disputes list as of 2026-11-15; no quantified mine output change verified; Vancouver Wharves dispute/litigation reported 2026-11-11 to 13",
+        "owner": "Teck Resources",
+        "operator": "Teck Resources",
+        "output": "HVC MLE planned average 132,000 t Cu/year over extended mine life; 2026 actual and strike impact not updated in verified sources",
+        "life": "Extension to 2046 (2025 Teck sanctioned project; unchanged)",
+        "resource": "Not revised in this update",
+        "nextstep": "Monitor USW Local 7619 strike, BC Federation hot-edict scope, Vancouver Wharves cargo handling and injunction proceedings; confirm revised Cu/Mo production guidance, shipment backlog, HVC mine life extension project works, contractor access, equipment utilization and maintenance schedule.",
+        "source": "https://www.globenewswire.com/news-release/2026/10/24/3387701/0/en/teck-provides-update-on-highland-valley-copper-operations.html"
+      },
+      {
+        "country": "Canada",
+        "name": "Minto Copper-Gold-Silver Project",
+        "commodity": "Copper; Gold; Silver",
+        "method": "Open pit; Underground (restart study)",
+        "status": "Care and maintenance / Restart planning; FID not verified",
+        "owner": "Selkirk Copper Mines Inc. (100% per 2026 company PEA)",
+        "operator": "Selkirk Copper Mines Inc. (site management; not producing)",
+        "output": "Not producing. PEA planned 4,100 t ore/day milling; historical mine facility",
+        "life": "13 years (2026-09 PEA; not reserves-based)",
+        "resource": "2026 MRE M&I 47.8Mt @0.89% Cu, 0.34g/t Au, 3.2g/t Ag; inferred 16.9Mt @0.76% Cu; 2026 Phase2 not incorporated",
+        "nextstep": "Phase2 54,579m/223 holes complete; updated MRE planned 2027-03; monitor feasibility, permits and restart FID",
+        "source": "https://pr.comtex.com/article/1002781269/selkirk-copper-completes-phase-2-drill-program-comprising-54579-metres-in-223-dr"
+      },
+      {
+        "country": "Canada",
+        "name": "3Ts Gold and Silver Project",
+        "commodity": "Gold; Silver",
+        "method": "Exploration (future mining method undecided)",
+        "status": "Exploration / New 10,000 m drilling (2026-11-16)",
+        "owner": "Independence Gold Corp. (100%)",
+        "operator": "Independence Gold Corp.",
+        "output": "Not producing",
+        "life": "Not established",
+        "resource": "2025-11 MRE: Indicated 378,000 oz AuEq; Inferred 387,000 oz AuEq; NOT Mineral Reserves",
+        "nextstep": "Complete 10,000m diamond drilling, test 19 targets, publish assays; resource update not scheduled in release",
+        "source": "https://www2.newsfilecorp.com/release/324069/Independence-Gold-Announces-the-Commencement-of-a-10000-Metre-Drill-Program-at-the-3Ts-Gold-and-Silver-Project-BC"
+      },
+      {
+        "country": "Canada",
+        "name": "Patterson Lake South (Triple R Uranium Project)",
+        "commodity": "Uranium",
+        "method": "Underground (planned)",
+        "status": "Development / CNSC construction licence under review / financing bookbuild complete",
+        "owner": "Paladin Energy Ltd.",
+        "operator": "Paladin Canada Inc. (proponent)",
+        "output": "Not producing; first uranium production targeted 2031",
+        "life": "Undetermined / potential extension under assessment",
+        "resource": "Triple R uranium deposit; this release does not revise ore resource/reserves",
+        "nextstep": "Close A$525M equity raising settlement 2026-11-18; prepare 2027-2028 site works and long-lead procurement subject to approvals",
+        "source": "https://www.globenewswire.com/news-release/2026/11/13/3402365/0/en/paladin-successfully-completes-a-525-million-fully-underwritten-equity-raising.html"
+      },
+      {
+        "country": "Canada",
+        "name": "Shasta–Mets Gold-Silver Project",
+        "commodity": "Gold; Silver",
+        "method": "Open pit (two pits; PEA planned)",
+        "status": "Development / first PEA (no FID, no new permit for combined operation)",
+        "owner": "TDG Gold Corp. (100%)",
+        "operator": "TDG Gold Corp. (proponent; not in production)",
+        "output": "PEA average 71.2 koz payable Au and 2.82 Moz payable Ag per year; not yet operating",
+        "life": "9.9 years (2026-11 PEA; modelled, not reserves-based)",
+        "resource": "Shasta Indicated 17.12Mt, Inferred 26.84Mt; Mets Inferred 0.53Mt, 2026-11-17 MRE; not reserves",
+        "nextstep": "File NI 43-101 technical report within 45 days; obtain EA and mine/other permits; assess financing and FID",
+        "source": "https://www.globenewswire.com/news-release/2026/11/17/3404459/0/en/tdg-announces-preliminary-economic-assessment-for-the-shasta-au-ag-project.html"
+      },
+      {
+        "country": "Canada",
+        "name": "Mactung Tungsten Project",
+        "commodity": "Tungsten; Copper; Gold",
+        "method": "Development / method to be confirmed in updated FS (historical underground concept; open-pit resource shapes evaluated)",
+        "status": "Development / updated FS in progress; Canada grant announced; FID not taken",
+        "owner": "Fireweed Metals Corp. (100%)",
+        "operator": "Fireweed Metals Corp. (proponent; not operating)",
+        "output": "No current mine production",
+        "life": "Not established under current updated FS (2027 target)",
+        "resource": "2023 MRE: Indicated 41.5Mt @0.73% WO3; Inferred 12.2Mt @0.59% WO3 (2027 update pending)",
+        "nextstep": "2027 early updated FS, permitting, FID decision; up to C$14M government engineering/technical support",
+        "source": "https://www.canada.ca/en/natural-resources-canada/news/2026/11/canada-invests-in-critical-mineral-mining-in-the-yukon.html"
+      },
+      {
+        "country": "Canada",
+        "name": "Adina Lithium Project",
+        "commodity": "Lithium",
+        "method": "Exploration / mining method subject to future evaluation",
+        "status": "Exploration / 2026 drilling published; revised MRE/PEA planned 2027",
+        "owner": "Li-FT Power Ltd.",
+        "operator": "Li-FT Power Ltd. (developer; not operating)",
+        "output": "Not producing; no confirmed production guidance",
+        "life": "Not established",
+        "resource": "2026-11 assays: ALP0007 45m @2.71% Li2O (downhole, true thickness unknown); MRE not updated yet",
+        "nextstep": "Updated MRE and PEA targeted early 2027; permit and development economics to follow",
+        "source": "https://www.li-ft.com/news/lift-announces-results-from-summer-drilling-at-the-adina-lithium-project-qubec"
+      },
+      {
+        "country": "Canada",
+        "name": "PL Gold Mine",
+        "commodity": "Gold",
+        "method": "Open pit (planned 2028–2030); underground (planned from 2029)",
+        "status": "Development / PEA filed; pre-FID",
+        "owner": "Minnova Corp. (100%)",
+        "operator": "Minnova Corp. (proponent; not operating)",
+        "output": "2026 PEA model average 62.2 koz gold/year during 2028–2037; not producing",
+        "life": "10 years modelled (2028–2037; PEA, not reserves-based)",
+        "resource": "2026 NI 43-101 MRE on file; this update does not revise resources",
+        "nextstep": "Underground development 2029-01; first underground mineralized ore 2029-03; evaluate PFS, permits, financing and FID",
+        "source": "https://minnovacorp.s0.adnetcms.com/news/minnova-corp-announces-filing-of-ni-43-101-technical-report-on-the-preliminary-economic-assessment-for-pl-gold-mine-and/"
+      },
+      {
+        "country": "Canada",
+        "name": "Benoist Gold Project",
+        "commodity": "Gold; Copper; Silver",
+        "method": "Conceptual underground long-hole mining only (MRE RPEEE assumption)",
+        "status": "Exploration / updated MRE; PEA not conducted",
+        "owner": "Epic Gold Corp.",
+        "operator": "Epic Gold Corp. (exploration)",
+        "output": "Not producing; conceptual 4,000–4,500 tpd is NOT mine-plan or guidance",
+        "life": "Not established; no PEA/PFS/FS",
+        "resource": "2026 MRE Indicated 2.072Mt @2.26g/t Au (150.7koz); Inferred 1.6206Mt @1.67g/t Au (86.9koz); non-reserves",
+        "nextstep": "Submit supporting NI 43-101 within 45 days; infill and depth drilling and geotechnical work; economic study not scheduled",
+        "source": "https://www.tmxnewsfile.com/release/324583/Epic-Gold-Announces-Updated-Benoist-Gold-Project-Mineral-Resource-Estimate-with-150700-Indicated-Ounces-at-2.26-gt-Au-and-86900-Inferred-Ounces-at-1.67-gt-Au"
+      },
+      {
+        "country": "Canada",
+        "name": "East Sudbury Project",
+        "commodity": "Gold; Copper; Nickel (exploration targets)",
+        "method": "Exploration (mine method undetermined)",
+        "status": "Exploration / new Zone 3 gold intersection",
+        "owner": "Canuc Resources Corporation (100%)",
+        "operator": "Canuc Resources Corporation (exploration)",
+        "output": "Not producing",
+        "life": "Not established; first MRE pending",
+        "resource": "No MRE published yet; Zone 3 drill SM-26-170 8m @2.99g/t gold (downhole; true width not known)",
+        "nextstep": "Maiden MRE expected 2026-12 to 2027-01; additional 7 assays pending and new IOCG drilling planned by 2027-01",
+        "source": "https://canucresources.ca/news/canuc-discovers-new-gold-zone-at-east-sudbury-project/"
+      }
+    ],
+    "coordinates": [
+      {
+        "country": "Canada",
+        "name": "Goldboro Gold Project",
+        "lat": 45.2007222,
+        "lng": -61.6505556,
+        "precision": "historic_project_property_center_approx_not_exact_pit",
+        "location_note": "2018 SEC-listed Anaconda annual information form gives approximate center 45°12′2.6″N, 61°39′2.0″W. Project property center, not entrance, pit or drill pad. https://www.sec.gov/Archives/edgar/data/1722214/000110465918023880/a18-9902_1ex2d1.htm"
+      },
+      {
+        "country": "Alaska",
+        "name": "Estelle Gold & Critical Minerals Project",
+        "lat": 61.8726767,
+        "lng": -152.9049352,
+        "precision": "approximate_property_location_UTM_NAD83_zone5_conversion_not_mine_site",
+        "location_note": "2024 Nova SEC 20-F approximate Estelle property UTM 505000/6860000, NAD83 Zone5, converted to WGS84 geographic. Original labels N/W instead of E/N, so axis interpretation is conventional and this is NOT a mine pit, airstrip, nor Port MacKenzie refinery position. https://www.sec.gov/Archives/edgar/data/1852551/000149315224042879/form20-f.htm"
+      },
+      {
+        "country": "Canada",
+        "name": "Minto Copper-Gold-Silver Project",
+        "lat": 62.61805556,
+        "lng": -137.24888889,
+        "precision": "approximate_project_center_2026_NI43-101_NAD83",
+        "location_note": "2026 company NI43-101 technical report project center 62°37′05″N,137°14′56″W. NOT a shaft/pit location. https://financialfilings.com/filings/selkirk-copper-mines-inc/environmental-social-information/2026/75733794/"
+      },
+      {
+        "country": "Canada",
+        "name": "3Ts Gold and Silver Project",
+        "lat": 53.033333,
+        "lng": -125.016667,
+        "precision": "government_ARIS_property_reference_NAD83_not_drillpad",
+        "location_note": "BC government ARIS 43248 property location 53°02′00″N,125°01′00″W NAD83; report year 2026, not specific drill-pad or mine portal. https://apps.nrs.gov.bc.ca/pub/aris/Detail/43248"
+      },
+      {
+        "country": "Canada",
+        "name": "Shasta–Mets Gold-Silver Project",
+        "lat": 57.252778,
+        "lng": -126.9875,
+        "precision": "approximate_legacy_Shasta_drill_property_reference_NAD83_2010",
+        "location_note": "BC government ARIS 33171 Shasta historical diamond drilling property reference (57.252778,-126.9875). Represents Shasta, NOT exact proposed Shasta/Mets two-pit mine footprint or Mets pit. https://apps.nrs.gov.bc.ca/pub/aris/Detail/33171"
+      },
+      {
+        "country": "Canada",
+        "name": "Mactung Tungsten Project",
+        "lat": 63.283333,
+        "lng": -130.166667,
+        "precision": "approximate_property_coordinate_2023_NI43-101_1_arcminute",
+        "location_note": "Fireweed 2023 NI 43-101 Technical Report section 4.1: 63°17 N, 130°10 W, rounded to whole arcminute. Property location only (not pit, adit or exact deposit); report dated 2023. https://fireweedmetals.com/wp-content/uploads/2024/01/fwz43101f1jul28-1.pdf"
+      },
+      {
+        "country": "Canada",
+        "name": "Adina Lithium Project",
+        "lat": 53.2976677,
+        "lng": -72.4724549,
+        "precision": "verified_drill_collar_NAD83_UTM18N_ALP0007_reference_not_mine_center",
+        "location_note": "LIFT 2026-11-17 press release Table 2: ALP0007 collar NAD83 UTM18N (668440E,5908364N) converted to WGS84 EPSG:4326 via pyproj; point is an exploration drill collar, not definitive resource centroid or future mine entrance. https://www.li-ft.com/news/lift-announces-results-from-summer-drilling-at-the-adina-lithium-project-qubec"
+      }
+    ]
+  },
+  "changes": [
+    {
+      "page": "Alaska",
+      "country": "Alaska (USA)",
+      "name": "Graphite Creek / Graphite One US supply chain",
+      "commodity": "Graphite",
+      "method": "Proposed open pit (Graphite Creek); Phase 1 synthetic graphite blending/coating plant in Ohio is a separate manufacturing asset",
+      "status": "Graphite Creek development/permitting, no FID; Ohio Phase 1 proposed, no FID",
+      "owner": "Graphite One Inc.",
+      "operator": "Graphite One Inc. (proposed)",
+      "resource": "No updated Graphite Creek Mineral Resource or Reserve announced Nov 9",
+      "output": "No Graphite Creek production; Ohio Phase 1 target 10,000 t/year of synthetic graphite active anode material; not graphite concentrate from Alaska",
+      "life": "No Graphite Creek mine-life change announced",
+      "nextstep": "Ohio Phase 1 proposed capex ~US$80 million; FID target by April 2027, first sales Q4 2028. Graphite Creek mine permitting/financing and construction schedule unchanged in this release. US EXIM $1.4bn Ohio LoI dated Dec 2025, $670m Graphite Creek LoI existing: NON-BINDING and NOT new funds.",
+      "source": "https://www.newswire.ca/news-releases/graphite-one-outlines-path-to-production-for-ohio-manufacturing-plant-following-air-permit-878145790.html",
+      "validation": "A: Graphite One official news release Nov 9 2026. Forecast FID/sales dates are management targets and dependent on approvals/funding.",
+      "event_date": "2026-11-09",
+      "reviewed_on": "2026-11-10",
+      "priority": "P2",
+      "change_type": "downstream_phase1_development_schedule",
+      "previous": "Graphite Creek mine development with separate US anode manufacturing under permitting; no confirmed Phase 1 commercial milestone in previous local snapshot",
+      "current": "Ohio synthetic AAM Phase 1 target 10,000 tpa, US$80m initial capex, target FID Apr 2027 / first sales Q4 2028; can proceed before Alaska ore is available",
+      "confidence": "A",
+      "equipment_impact": "Ohio industrial construction/power and equipment demand may emerge ahead of Alaska mining; NOT evidence of near-term Graphite Creek shovel, drill or haul-truck purchases. Observe AK permitting and independent mine FID.",
+      "_source_date": "2026-11-12"
+    },
+    {
+      "page": "Alaska",
+      "country": "Alaska (USA)",
+      "name": "Flat Gold Project (Chicken Mountain)",
+      "commodity": "Gold",
+      "method": "Exploration; eventual mining method not decided in new disclosure",
+      "status": "Exploration; 2027 maiden MRE and PEA planned, no reserves, mine design, CAPEX or FID",
+      "owner": "Tectonic Metals Inc. / rights on Doyon, Limited land",
+      "operator": "Tectonic Metals Inc.",
+      "resource": "Maiden resource estimate targeted Q1 2027 (not yet issued)",
+      "output": "No production",
+      "life": "Not established",
+      "nextstep": "New VPs for Project Development/Permitting and External Relations; maiden resource target Q1 2027, PEA target Q2 2027. Future mining capital demand depends on studies/permits.",
+      "source": "https://www.tectonicmetals.com/news/tectonic-metals-adds-mine-development-and-alaska-native-partnership-leaders-ahead-of-2027-mineral-resource-estimate-and-preliminary-economic-assessment",
+      "validation": "A: issuer release Nov 9 2026. Personnel appointments confirmed, timing is forward-looking. Not evidence that an existing schedule was accelerated.",
+      "event_date": "2026-11-09",
+      "reviewed_on": "2026-11-10",
+      "priority": "P3",
+      "change_type": "project_milestone_visibility_and_staffing",
+      "previous": "Early-stage exploration; no feasibility, mine FID or construction decision",
+      "current": "Company reiterated targets for maiden MRE Q1 2027 and PEA Q2 2027 and added project/relations executives",
+      "confidence": "A",
+      "equipment_impact": "Low immediate heavy-equipment demand; geological drilling/site services now. Mine-equipment implications cannot be assessed until MRE/PEA.",
+      "_source_date": "2026-11-12"
+    },
+    {
+      "page": "Canada",
+      "country": "Canada",
+      "name": "Phoenix ISR Uranium Mine (Wheeler River, Saskatchewan)",
+      "commodity": "Uranium",
+      "method": "In-situ recovery (ISR), not truck/shovel open pit or conventional underground mining",
+      "status": "Full-scale construction began July 2026; progressing",
+      "owner": "Denison Mines Corporation (95% effective interest Wheeler River)",
+      "operator": "Denison Mines / project entities",
+      "resource": "No new mineral resource/ reserve in Nov 4 report; exploration target Phoenix North assays are not resource estimates",
+      "output": "No commercial production; first production target H2 2028, unchanged",
+      "life": "No reported mine life change",
+      "nextstep": "Sep 30 total project completion estimated 24%; by Oct end site civil works nearly 50%; 2026 project expenditures forecast CAD278.6m (not comparable to approved total project CAPEX). Procurement includes switchgear, generators, freeze plant, substations and processing tanks.",
+      "source": "https://denisonmines.com/news/denison-reports-financial-and-operational-results-122851/",
+      "validation": "A: Denison Q3 primary release published Nov 4, newly found in Nov 10 review; HISTORICAL CATCH-UP, NOT new Nov 9-10 development.",
+      "event_date": "2026-11-04",
+      "reviewed_on": "2026-11-10",
+      "priority": "P2",
+      "change_type": "historical_catchup_construction_progress",
+      "previous": "2026 Jul full construction commenced, earlier status no Sep30 verified completion percent in baseline; first production H2 2028",
+      "current": "2026 Sep30 estimated overall 24% complete; ~50% of site civil works complete by Oct end; H2 2028 production target unchanged",
+      "confidence": "A",
+      "equipment_impact": "Near-term construction, mobile site prep, drill/freeze-well systems and auxiliary power; do not assume demand for surface haul truck fleet because project uses ISR.",
+      "_source_date": "2026-11-12"
+    },
+    {
+      "page": "Canada",
+      "country": "Canada (Quebec)",
+      "name": "Shaakichiuwaanaan CV5 lithium-tantalum project",
+      "commodity": "Lithium; Tantalum",
+      "method": "Underground phase 1; open pit phase 2",
+      "status": "Updated Feasibility Study disclosed; financing/FID not confirmed",
+      "owner": "PMET Resources Inc.",
+      "operator": "PMET Resources Inc. (proposed)",
+      "resource": "Probable Mineral Reserves: 83.0 Mt @ 1.27% Li2O, 148 ppm Ta2O5 (2026 updated FS); 34.9 Mt UG plus 48.2 Mt OP. This is Mineral Reserves (not Nov 3 Mineral Resources).",
+      "output": "Nominal SC5.5 concentrate up to 800,000 t/year; LOM total 13.4 Mt spodumene concentrate, 27.4 kt tantalite concentrate; target commercial production Q1 2030",
+      "life": "19 years (2026 FS mine plan)",
+      "nextstep": "Detailed engineering, financing/FID; DMS commissioning late 2029, commercial production end of Q1 2030 target. Phase 1 CAPEX net preproduction C$1,260.4m vs C$1,247.7m; phase 2 C$672.4m vs C$628.8m.",
+      "source": "https://www.newswire.ca/news-releases/pmet-resources-delivers-enhanced-cv5-lithium-tantalum-feasibility-study-869908836.html",
+      "validation": "A: company official Nov 10 2026 updated FS. Studies and planned start dates are forward-looking; after-tax NPV reflects increased lithium price assumptions.",
+      "event_date": "2026-11-10",
+      "reviewed_on": "2026-11-11",
+      "priority": "P1",
+      "change_type": "updated_FS; mining_method; reserves; capex; economics",
+      "previous": {
+        "study": "2025 FS",
+        "probable_reserves_mt": 84.3,
+        "li2o_pct": 1.26,
+        "phase1_capex_net_preproduction_cad_m": 1247.7,
+        "phase2_capex_cad_m": 628.8,
+        "aftertax_npv8_cad_m": 1594,
+        "aftertax_irr_pct": 18.1,
+        "aisc_cad_per_t_SC55": 799.8,
+        "long_term_SC55_price_usd_per_t": 1221
+      },
+      "current": {
+        "study": "2026 updated FS",
+        "probable_reserves_mt": 83.0,
+        "li2o_pct": 1.27,
+        "phase1_capex_net_preproduction_cad_m": 1260.4,
+        "phase2_capex_cad_m": 672.4,
+        "aftertax_npv8_cad_m": 5100,
+        "aftertax_irr_pct": 40.4,
+        "aisc_cad_per_t_SC55": 657.1,
+        "long_term_SC55_price_usd_per_t": 1788,
+        "life_years": 19,
+        "commercial_production_target": "2030-Q1",
+        "FID_target": "2027-H2 (late 2027, company target; NOT approved)"
+      },
+      "confidence": "A",
+      "equipment_impact": "Phase 1 underground LHD, underground trucks, jumbos and site power; phase 2 open pit shovel, 140t-class haul trucks, GET, tire and maintenance demand. Significant OEM/distributor pipeline, but no award or FID.",
+      "caveat": "NPV rose partly from +46% modeled SC5.5 concentrate price; not a realized lithium spot price or entirely operating improvements.",
+      "_source_date": "2026-11-12"
+    },
+    {
+      "page": "Canada",
+      "country": "Canada (Quebec)",
+      "name": "Cisco Lithium Project",
+      "commodity": "Lithium",
+      "method": "Open pit truck-and-shovel (PEA mine plan only)",
+      "status": "First Preliminary Economic Assessment (PEA) disclosed; no feasibility study/FID",
+      "owner": "Q2 Metals Corp.",
+      "operator": "Q2 Metals Corp. (proposed)",
+      "resource": "Inferred Mineral Resources 297.377 Mt @1.36% Li2O, effective May 26 2026; NOT Mineral Reserves. PEA entirely based on Inferred.",
+      "output": "PEA average 1.7 Mt/year SC5.5; two phases 5 to 10 Mtpa feed; total LOM 46.5 Mt SC5.5",
+      "life": "28 years (conceptual PEA)",
+      "nextstep": "Exploration/infill drilling and resource conversion, studies, financing and permitting. PEA initial CAPEX C$2,926m includes phases 1+2 capital and some mine pre-production; LOM mobile equipment estimated C$775.4m inclusive of C$98.9m financing interest, not a purchase order.",
+      "source": "https://www.globenewswire.com/de/news-release/2026/11/10/3399444/0/en/q2-metals-announces-pea-with-c-13-5-billion-after-tax-npv-for-1-7-mtpa-cisco-lithium-project-in-qu%C3%A9bec-canada.html",
+      "validation": "A: Q2 Metals company Nov 10 2026 PEA. AACE class 5 CAPEX (-30%/+50% target accuracy); inferred resources not reserves; PEA speculative.",
+      "event_date": "2026-11-10",
+      "reviewed_on": "2026-11-11",
+      "priority": "P1",
+      "change_type": "first_PEA; conceptual_mine_plan; capex_estimate",
+      "previous": {
+        "study": "No PEA published",
+        "mine_life_years": null,
+        "initial_capex_cad_m": null,
+        "resource_note": "May 2026 Inferred MRE effective date predates PEA"
+      },
+      "current": {
+        "study": "First PEA published 2026-11-10",
+        "mine_life_years": 28,
+        "initial_capex_cad_m": 2926,
+        "aftertax_npv8_cad_m": 13490,
+        "aftertax_irr_pct": 38.7,
+        "expected_SC55_avg_t_per_year": 1700000,
+        "mine_mobile_equipment_cost_cad_m_incl_finance": 775.4,
+        "inferred_resource_mt": 297.377,
+        "inferred_li2o_pct": 1.36,
+        "process_throughput_phase1_mtpa": 5,
+        "process_throughput_phase2_mtpa": 10
+      },
+      "confidence": "A (PEA estimates, early-stage)",
+      "equipment_impact": "Potential future large open-pit fleet and aftersales/parts, and remote mine power; C$775m PEA mobile equipment spend is a hypothetical full-LOM budget, not committed capex or immediate orders.",
+      "_source_date": "2026-11-12"
+    },
+    {
+      "page": "Canada",
+      "country": "Canada (British Columbia)",
+      "name": "North Island Mine Project",
+      "commodity": "Copper; Gold",
+      "method": "Proposed multiple open pits",
+      "status": "Federal/provincial initial project description public consultation open; not approved or FID",
+      "owner": "North Island Mining Corp. (Northisle-related)",
+      "operator": "North Island Mining Corp. (proponent)",
+      "resource": "No new resource/reserve figures in Nov 10 public notice",
+      "output": "No new production guidance; prior project scale unchanged",
+      "life": "No changed life of mine; 37 years as previously disclosed",
+      "nextstep": "Public consultation ends Dec 10, 2026 23:59 Pacific; IAAC/BC EAO determine assessment/permits pathways",
+      "source": "https://iaac-aeic.gc.ca/050/evaluations/proj/90861/document/168358",
+      "validation": "A: Impact Assessment Agency of Canada official registry notice 2026-11-10",
+      "event_date": "2026-11-10",
+      "reviewed_on": "2026-11-11",
+      "priority": "P2",
+      "change_type": "environmental_assessment_consultation_milestone",
+      "previous": {
+        "status": "Initial Project Description accepted Oct 30, 2026; comment window not yet open"
+      },
+      "current": {
+        "status": "Joint public consultation opened 2026-11-10",
+        "consultation_closes": "2026-12-10T23:59:00-08:00"
+      },
+      "confidence": "A",
+      "equipment_impact": "Long-dated potential for large open-pit excavators/trucks and GET; procedural step only, not an equipment order or construction permit.",
+      "_source_date": "2026-11-12"
+    },
+    {
+      "page": "Alaska",
+      "country": "Alaska (USA)",
+      "name": "Graphite Creek / Graphite One REE co-product research",
+      "commodity": "Graphite; Rare earth elements",
+      "method": "Proposed open pit plus lab process-development study",
+      "status": "Research collaboration announced; mine still not FID",
+      "owner": "Graphite One Inc.",
+      "operator": "Graphite One Inc. (proposed)",
+      "resource": "No REE mineral resource or reserve reported on Nov 10; sample geochemical results not equivalent to a resource estimate",
+      "output": "No REE production target or commercialization decision",
+      "life": "No change announced",
+      "nextstep": "Three-month Graphite One-funded Ames National Laboratory REE recovery test program launched Nov 10; preliminary process flowsheet expected from research.",
+      "source": "https://www.graphiteoneinc.com/graphite-one-engages-ames-national-laboratory-to-assess-rare-earth-recoveries-from-alaskas-graphite-creek-deposit/",
+      "validation": "A: company official Nov 10, 2026 release",
+      "event_date": "2026-11-10",
+      "reviewed_on": "2026-11-11",
+      "priority": "P2",
+      "change_type": "new_process_R&D_program",
+      "previous": {
+        "status": "Graphite Creek graphite development; rare earth byproduct potential not experimentally validated at scalable-process level"
+      },
+      "current": {
+        "status": "Three-month Ames National Laboratory program on REE leaching/separation/flowsheet announced",
+        "duration_months": 3,
+        "funded_by": "Graphite One"
+      },
+      "confidence": "A (R&D announcement only)",
+      "equipment_impact": "Potential future co-product value and processing equipment if feasible; negligible immediate mine equipment demand. Avoid double-counting previously reported Nov 9 Ohio manufacturing plans.",
+      "_source_date": "2026-11-12"
+    },
+    {
+      "page": "Canada",
+      "country": "Canada (Ontario)",
+      "name": "McCreedy West Mine",
+      "commodity": "Copper; Nickel; Cobalt; Platinum; Palladium; Gold; Silver",
+      "method": "Underground",
+      "status": "Operating; 2026 production guidance revised down",
+      "owner": "Magna Mining Inc.",
+      "operator": "Magna Mining Inc.",
+      "resource": "No change in Mineral Resources or Mineral Reserves disclosed",
+      "output": "2026 payable copper-equivalent forecast reduced to 14.5–15.5 million lb CuEq",
+      "life": "Existing mine; no mine-life update",
+      "nextstep": "Mine sequence recovery; monitor actual Q4 and 2027 higher-grade production recovery expectations",
+      "source": "https://www.globenewswire.com/news-release/2026/11/11/3401156/0/en/magna-mining-reports-operating-and-financial-results-for-the-third-quarter-of-2026.html",
+      "validation": "A: Nov 11 2026, 17:00 ET, issuer Q3 report, Table 3",
+      "event_date": "2026-11-11",
+      "reviewed_on": "2026-11-12",
+      "priority": "P1",
+      "change_type": "production_guidance_down;cash_cost_up;aisc_up",
+      "previous": {
+        "baseline": "Feb 2026 guidance",
+        "payable_cueq_million_lb_2026": [
+          16.0,
+          18.0
+        ],
+        "700_copper_zone_ore_sales_short_tons_2026": [
+          355000,
+          375000
+        ],
+        "cash_cost_usd_per_lb_cueq_2026": [
+          3.4,
+          3.8
+        ],
+        "aisc_usd_per_lb_cueq_2026": [
+          4.2,
+          4.7
+        ]
+      },
+      "current": {
+        "baseline": "Nov 11 Q3 updated guidance",
+        "payable_cueq_million_lb_2026": [
+          14.5,
+          15.5
+        ],
+        "700_copper_zone_ore_sales_short_tons_2026": [
+          330000,
+          345000
+        ],
+        "cash_cost_usd_per_lb_cueq_2026": [
+          3.9,
+          4.25
+        ],
+        "aisc_usd_per_lb_cueq_2026": [
+          4.8,
+          5.15
+        ],
+        "payable_cueq_midpoint_pct_change": -11.7647,
+        "q3_payable_cueq_million_lb": 3.689
+      },
+      "confidence": "A",
+      "equipment_impact": "Underground load-haul utilization and ore deliveries affected by mining sequence disruption. Mine development and urgent mechanical support/ground-support services may be needed; lower production is not proof of across-the-board service decline.",
+      "caveat": "Cost guidance is US$/lb CuEq excluding precious metal streaming cost; ranges from Feb to Nov 2026. CuEq is price-assumption-derived not pure copper production.",
+      "_source_date": "2026-11-12"
+    },
+    {
+      "page": "Canada",
+      "country": "Canada (Ontario)",
+      "name": "Levack Mine / Levack Mine Complex",
+      "commodity": "Copper; Nickel; Platinum; Palladium; Gold; Silver",
+      "method": "Underground",
+      "status": "Restart development, not commercial production; 2027 pre-commercial ore expected",
+      "owner": "Magna Mining Inc.",
+      "operator": "Magna Mining Inc.",
+      "resource": "New high-grade drill intercepts; NOT reserves or resources. Hole MLV-26-80: 3.9m @ Cu 5.6%, Ni 0.9%, Pt+Pd+Au 4.4g/t.",
+      "output": "2027 pre-commercial ore target; production hoist recommissioning Q1 2027 target",
+      "life": "Oct 8 2026 PEA 7.3 years commercial production plan; unchanged Nov 12",
+      "nextstep": "Hoist refurbishment and shaft-guide works; fourth underground diamond drill mobilized; 2950 Level drift resumes Dec 2026; shared maintenance personnel with McCreedy West.",
+      "source": "https://www.globenewswire.com/news-release/2026/11/12/3401370/0/en/magna-provides-additional-assay-results-and-update-on-development-activities-at-levack-mine-in-sudbury-ontario.html",
+      "validation": "A: Nov 12 2026 06:45 ET corporate operational development update",
+      "event_date": "2026-11-12",
+      "reviewed_on": "2026-11-12",
+      "priority": "P2",
+      "change_type": "operating_unit_integration;restart_implementation;underground_drills_added",
+      "previous": {
+        "operating_structure": "Levack restart works and McCreedy West operated as separate named mines",
+        "underground_drilling_rigs_active": 3,
+        "production_hoist_status": "refurbishment in progress; previously targeted Q1 2027"
+      },
+      "current": {
+        "operating_structure": "Combined Levack Mine Complex; shared technical and maintenance resources",
+        "underground_drilling_rigs_active": 4,
+        "production_hoist_status": "shaft guides replaced; upgrades underway; recommissioning target Q1 2027",
+        "precommercial_ore_target": "2027",
+        "drill_intercept_m": 3.9,
+        "drill_intercept_cu_pct": 5.6,
+        "drill_intercept_ni_pct": 0.9
+      },
+      "confidence": "A",
+      "equipment_impact": "Underground drilling equipment, hoist electrical/mechanical rehabilitation, ground support, ventilation, LHD and service opportunities; combined mine complex may consolidate maintenance/service procurement.",
+      "caveat": "Operational reorganization not an ownership/operator change; original restart board approval was Oct 8 2026 and is not a Nov 12 new FID; high-grade assay is a drill interval, not a mineral resource.",
+      "_source_date": "2026-11-12"
+    },
+    {
+      "page": "Canada",
+      "country": "Canada (British Columbia)",
+      "name": "Copper Mountain Mine",
+      "commodity": "Copper; Gold; Silver",
+      "method": "Open pit",
+      "status": "Operating; Q3 2026 heavy equipment availability constraining total material movement",
+      "owner": "Hudbay Minerals Inc.",
+      "operator": "Hudbay Minerals Inc.",
+      "resource": "No new mine resource/reserve revisions in Nov 12 earnings",
+      "output": "Q3 2026 ore mined 5.118 million metric tonnes, copper produced 6,568 tonnes (British Columbia operation)",
+      "life": "New Ingerbelle satellite extension production late 2028 target unchanged",
+      "nextstep": "Resolve fleet availability/productivity; New Ingerbelle haul road construction; December 2026 50,000 t/day mill throughput target unchanged",
+      "source": "https://rss.globenewswire.com/news-release/2026/11/12/3401334/0/en/hudbay-delivers-record-third-quarter-2026-results-further-improves-cost-guidance-and-advances-copper-growth-pipeline.html",
+      "validation": "A: Nov 12 2026 corporate Q3 earnings operations review",
+      "event_date": "2026-11-12",
+      "reviewed_on": "2026-11-12",
+      "priority": "P1",
+      "change_type": "haulage_fleet_availability;material_moved_down;unit_cost_up",
+      "previous": {
+        "reference_quarter": "2026-Q2",
+        "ore_mined_tonnes": 3276090,
+        "ore_milled_tonnes": 3616083,
+        "combined_unit_operating_cost_cad_per_t": 25.52,
+        "total_material_movement_qoq_reference": "Q3 down 11% relative Q2"
+      },
+      "current": {
+        "reference_quarter": "2026-Q3",
+        "total_material_moved_tonnes": 26900000,
+        "total_material_moved_qoq_pct": -11,
+        "ore_mined_tonnes": 5117530,
+        "ore_mined_qoq_pct": 56,
+        "ore_milled_tonnes": 3060204,
+        "sag_mill_planned_downtime_days": 33,
+        "combined_unit_operating_cost_cad_per_t": 34.2,
+        "new_ingerbelle_east_haul_road_waste_moved_tonnes": 5600000,
+        "new_ingerbelle_east_haul_road_progress_pct_at_sep30": 38,
+        "sep_mill_throughput_tonnes_per_day": 43500,
+        "target_mill_tpd_by_2026_end": 50000
+      },
+      "confidence": "A",
+      "equipment_impact": "Direct installed-fleet uptime problem creates opportunity for field technicians, rebuilds, tires, GET, spares, fleet analytics and potentially replacement haulage units; planned SAG shutdown is a separate contributor to reduced mill throughput.",
+      "caveat": "Do not confuse 11% decline in total material movement with ore mined, which rose 56%; annual production guidance remains unchanged. The 50,000 t/d and 2028 milestones are existing targets.",
+      "_source_date": "2026-11-12"
+    },
+    {
+      "page": "Canada",
+      "country": "Canada (Manitoba)",
+      "name": "Lalor / Snow Lake Operations",
+      "commodity": "Gold; Copper; Zinc; Silver",
+      "method": "Underground",
+      "status": "Operating; continuous miner testing and processing records disclosed with 2026 Q3 results",
+      "owner": "Hudbay Minerals Inc.",
+      "operator": "Hudbay Minerals Inc.",
+      "resource": "Sept 2026 Snow Lake reserves/life already disclosed; no new reserve or mine-life event inferred",
+      "output": "Q3 2026 Lalor ore hoisted ~4,200 tonnes/day; New Britannia mill ~2,250 tonnes/day; gold recovery ~92%",
+      "life": "Reserve mine life to 2043 previously reported, NOT new 2026-11-12 announcement",
+      "nextstep": "Monitor continuous miner test performance, changes to underground fleet composition, gold mill recoveries and 1901 satellite development; late 2027 full production target unchanged",
+      "source": "https://rss.globenewswire.com/news-release/2026/11/12/3401334/0/en/hudbay-delivers-record-third-quarter-2026-results-further-improves-cost-guidance-and-advances-copper-growth-pipeline.html",
+      "validation": "A: Hudbay first-party Q3 corporate release Nov12 2026; quarterly performance is Sep30 2026, not current-day flow",
+      "event_date": "2026-11-12",
+      "reviewed_on": "2026-11-12",
+      "priority": "P2",
+      "change_type": "underground_mining_equipment_pilot;quarterly_operating_performance",
+      "previous": {
+        "reference": "Before Nov12 Q3 operating release; no prior Q3 continuous miner trial metric substantiated"
+      },
+      "current": {
+        "reference_quarter": "2026-Q3",
+        "lalor_ore_hoisted_tonnes_per_day": 4200,
+        "new_britannia_mill_throughput_tonnes_per_day": 2250,
+        "new_britannia_gold_recovery_pct": 92,
+        "stall_gold_recovery_pct": 74,
+        "continuous_miner_unit": "operational testing disclosed",
+        "1901_target_full_production": "late 2027 (unchanged)"
+      },
+      "confidence": "A",
+      "equipment_impact": "Mechanized underground mining trial could alter future drill-and-blast/loading/ground support service requirements; aftermarkets tied to existing 4,200t/day mine throughput and mill recovery upgrades.",
+      "caveat": "Operational test does not prove commercial deployment or equipment fleet procurement award. Sept 28 reserve Mine Life extension was already reported Nov8 and is not re-counted.",
+      "_source_date": "2026-11-12"
+    },
+    {
+      "page": "Alaska",
+      "country": "USA (Alaska)",
+      "name": "Baird Copper Project",
+      "commodity": "Copper; Zinc; critical minerals",
+      "method": "Early exploration; mining method not determined",
+      "status": "Land tenure expanded; no mineral reserve, PEA, FID or mine construction",
+      "owner": "Lux Copper Corp Ltd",
+      "operator": "Lux Copper Corp Ltd (exploration)",
+      "resource": "No confirmed mineral resource/reserve. Initial drilling assays expected late Nov 2026.",
+      "output": "No commercial output planned or approved",
+      "life": "Not established",
+      "nextstep": "Assay results late Nov 2026; geophysical review and planning 2027 exploration season",
+      "source": "https://boldinvestors.com.au/asx/lux/announcements/61354304/lux-completes-strategic-ground-acquisition-at-baird",
+      "validation": "B: ASX announcement title/date corroborated on announcement index, details cross-checked against Mining Technology Nov11 secondary; original issuer PDF contents not directly retrieved",
+      "event_date": "2026-11-10",
+      "reviewed_on": "2026-11-12",
+      "priority": "P2",
+      "change_type": "exploration_land_tenure_expansion_catch_up",
+      "previous": {
+        "area_km2": 26,
+        "claim_additions": 0
+      },
+      "current": {
+        "area_km2": 236,
+        "area_added_km2": 210,
+        "new_state_mining_claims": 326,
+        "area_multiple": 9.08
+      },
+      "confidence": "B",
+      "equipment_impact": "Near term exploration drilling/survey/camp and logistics opportunities only. Not a confirmed demand for mine production shovels/trucks; prospective exploration tenure is not ore reserves.",
+      "caveat": "Nov 10 publication newly found Nov 12; historical catch-up not Nov 12 event. Verify primary announcement PDF before classifying A.",
+      "secondary_source": "https://finance.yahoo.com/news/lux-copper-expands-baird-project-085817916.html",
+      "_source_date": "2026-11-12"
+    },
+    {
+      "page": "Alaska",
+      "country": "Alaska",
+      "project": "Estelle Gold & Critical Minerals Project / Port MacKenzie refinery",
+      "published": "2026-11-10; 2026-11-13",
+      "verified_on": "2026-11-14",
+      "change_type": "engineering_capacity_and_progress",
+      "priority": "P1",
+      "previous": "Port MacKenzieの購入済み選鉱プラントの正確な前処理能力は前回の差分に未登録。2027年Sbパイロット生産方針は既報。",
+      "current": "破砕・粉砕・選鉱の前処理能力216,000t/年（108,000t/年×2系統）をエンジニアリング評価で確認。初期湿式精製能力は最大Sb 600t/年（2027年パイロット目標）。11/13発表の2026 Q3時点でPort MacKenzieに約500tの設備搬入、初期造成中。",
+      "values": {
+        "front_end_tpa": 216000,
+        "mills": 2,
+        "mill_capacity_tpa_each": 108000,
+        "pilot_sb_refining_tpa_max": 600,
+        "pilot_target_year": 2027,
+        "equipment_delivered_tonnes_approx": 500,
+        "DoW_award_usd_million": 43.4,
+        "DoW_receipts_as_of_2026_09_30_usd_million": 23.9,
+        "upside_model_sb_tpa_5pct_feed": 9400,
+        "upside_model_sb_tpa_10pct_feed": 20000
+      },
+      "confidence": "A",
+      "sources": [
+        "https://www.globenewswire.com/news-release/2026/11/10/3399285/0/en/nova-minerals-confirms-216-000-tpa-processing-capacity-advancing-alaska-s-critical-minerals-hub.html",
+        "https://rss.globenewswire.com/news-release/2026/11/13/3402455/0/en/nova-minerals-reports-strong-quarterly-progress-secures-final-antimony-permits-advancing-towards-2027-production.html"
+      ],
+      "equipment_impact": "前処理・精製設備の据付、土木、発電・保守が先行。金露天掘り採掘機械の本格受注はPFS/FID未了で確定していない。",
+      "caveat": "処理施設Port MacKenzieとEstelle鉱区は別地点。9,400〜20,000t/年のSb精製量は追加設備前提のシミュレーションで承認済み生産計画ではない。10月27日許認可は既報に対する追認であり11月13日新規許認可ではない。",
+      "_source_date": "2026-11-14"
+    },
+    {
+      "page": "Canada",
+      "country": "Canada",
+      "project": "Ducros Nickel Project",
+      "published": "2026-11-13",
+      "verified_on": "2026-11-14",
+      "change_type": "proposed_ownership_restructuring_definitive_agreement",
+      "priority": "P2",
+      "previous": "Universal Nickelへのスピンオフは2026年8月に意向が公表された提案段階。",
+      "current": "11月12日付の法的Arrangement Agreementを締結したと11月13日公表。2026年12月18日株主総会、2027年Q1実施目標。既存Aurbis株主にUniversal株式約0.196株/既存1株を分配する計画。",
+      "values": {
+        "shareholder_meeting": "2026-12-18",
+        "expected_effective": "2027 Q1",
+        "Universal_shares_per_Aurbis_share_est": 0.196,
+        "mining_claims": 44,
+        "mineral_reserves_estimated": false
+      },
+      "confidence": "A",
+      "sources": [
+        "https://www.newsfile-prod.tmx.cloud/release/324041/Aurbis-Resources-Announces-Arrangement-Agreement-for-Proposed-SpinOut-of-Universal-Nickel"
+      ],
+      "equipment_impact": "探鉱会社の資本調達や所有権移転に伴うボーリング発注動向を監視。当面は大型鉱山機械売上に直結しない。",
+      "caveat": "契約締結≠取引完了。現在の直接保有スキームを新しい独立オーナーへ変更しない。鉱物資源量・埋蔵量の公認推計なし。",
+      "_source_date": "2026-11-14"
+    },
+    {
+      "page": "Canada",
+      "country": "Canada",
+      "project": "Owl Creek Copper-Gold Project",
+      "published": "2026-11-13",
+      "verified_on": "2026-11-14",
+      "change_type": "exploration_drilling_permit",
+      "priority": "P2",
+      "previous": "探鉱・地質調査段階。ダイヤモンド掘削のMYAB許可申請中。",
+      "current": "MYAB多年度区域型探鉱許可を取得。3,522haで最大10掘削パッドを認める。初期ダイヤモンド掘削2,500〜3,200mを計画（資金調達と予算承認が条件）。",
+      "values": {
+        "claim_area_hectares": 3522,
+        "permitted_drill_pads_max": 10,
+        "planned_drill_m_min": 2500,
+        "planned_drill_m_max": 3200,
+        "priority_targets": 5
+      },
+      "confidence": "A",
+      "sources": [
+        "https://beyondminerals.ca/news/beyond-minerals-secures-drill-permit-for-owl-creek-copper-gold-porphyry-project-in-southern-british-columbia-files-amended-offering-document-for-life-offering-and-announces-warrant-extension"
+      ],
+      "equipment_impact": "探鉱掘削、調査用建機・アクセス整備の短期需要。大型露天掘り機械は鉱山建設承認前で需要不確定。",
+      "caveat": "探鉱許可であり鉱山建設許可、FID、埋蔵量認定ではない。",
+      "_source_date": "2026-11-14"
+    },
+    {
+      "page": "Canada",
+      "country": "Canada",
+      "project": "Goldboro Gold Project",
+      "published": "2026-11-13",
+      "verified_on": "2026-11-14",
+      "change_type": "procurement_preparation_update",
+      "priority": "P2",
+      "previous": "Goldboroは2026年9月にEarly Worksを開始、2026年Q4改訂FS・年末FID可能性は既報。",
+      "current": "2026 Q3発表で機械・電気設備の初期調達パッケージ発行、長納期設備の選定・調達準備を明示。9/30時点流動資金C$85.4M（6/30 C$101.1M）。",
+      "values": {
+        "cash_2026_09_30_cad_million": 85.4,
+        "cash_2026_06_30_cad_million": 101.1,
+        "revised_FS_target": "2026 Q4",
+        "FID_target": "late 2026, not approved"
+      },
+      "confidence": "A",
+      "sources": [
+        "https://www.globenewswire.com/news-release/2026/11/13/3402584/0/en/nexgold-reports-q3-2026-financial-and-operating-results.html"
+      ],
+      "equipment_impact": "FID前の調達準備としてEPC機械・電気機器の見積機会。大型ショベル・ダンプ等の確定注文は確認されず。",
+      "caveat": "9月着工やFS/FID時期は今回初発ではない。11月13日の決算説明で調達パッケージの進捗を再確認。FIDは未実施。",
+      "_source_date": "2026-11-14"
+    },
+    {
+      "page": "Canada",
+      "country": "Canada",
+      "name": "Highland Valley Copper",
+      "commodity": "Copper / Molybdenum",
+      "method": "Open pit",
+      "status": "Operating at reduced capacity per Teck 2026-10-24; strike ongoing per BCFED current disputes list as of 2026-11-15; no quantified mine output change verified; Vancouver Wharves dispute/litigation reported 2026-11-11 to 13",
+      "owner": "Teck Resources (no ownership change reported)",
+      "operator": "Teck Resources (no operator change reported)",
+      "nextstep": "Monitor USW Local 7619 strike, BC Federation hot-edict scope, Vancouver Wharves cargo handling and injunction proceedings; confirm revised Cu/Mo production guidance, shipment backlog, HVC mine life extension project works, contractor access, equipment utilization and maintenance schedule.",
+      "source": "https://www.globenewswire.com/news-release/2026/10/24/3387701/0/en/teck-provides-update-on-highland-valley-copper-operations.html",
+      "validation": "A: Teck issuer notice 2026-10-24 and BC Federation of Labour first-party announcement 2026-11-06. B: Courthouse News reporting 2026-11-11 about 2026-11-10 litigation; court filing not independently obtained.",
+      "event_date": "2026-11-10",
+      "reported_dates": [
+        "2026-10-24",
+        "2026-11-06",
+        "2026-11-11",
+        "2026-11-13"
+      ],
+      "verified_on": "2026-11-15",
+      "priority": "P1",
+      "change_type": "previously_unreported_operational_disruption_and_export_logistics_escalation",
+      "previous": "2026-10-24 Teck announced USW strike and mine operating at reduced capacity; BC Federation 2026-11-06 hot edict on copper and molybdenum concentrates; 2026-11-14 daily report did not cover resulting wharf litigation.",
+      "current": "Port operator PKM Canada Services and BC Maritime Employers Association filed suit reported as dated 2026-11-10 regarding Vancouver Wharves picketing; shipping/terminal interference alleged and at least one scheduled vessel docking reportedly affected. Court allegations unresolved; mine production tonnes and Cu/Mo guidance not yet quantified by issuer.",
+      "values": [
+        {
+          "metric": "workers_on_strike",
+          "value": "more than 1,200",
+          "unit": "persons",
+          "reference": "BCFED 2026-11-06"
+        },
+        {
+          "metric": "Teck_2025_MLE_capex_plan",
+          "value": "2.1 to 2.4",
+          "unit": "C$ billion",
+          "reference": "Teck 2025 approval; not changed in 2026-11-15 run"
+        },
+        {
+          "metric": "revised_mine_2026_production",
+          "value": null,
+          "unit": "t Cu or Mo",
+          "reference": "not officially quantified in checked releases"
+        }
+      ],
+      "confidence": "A for strike/edict; B for litigation/terminal specific effects",
+      "sources": [
+        "https://www.globenewswire.com/news-release/2026/10/24/3387701/0/en/teck-provides-update-on-highland-valley-copper-operations.html",
+        "https://bcfed.ca/news/releases/bcfed-issues-hot-edict-usw-strike-highland-valley-copper-operation",
+        "https://api.courthousenews.com/british-columbia-port-seeks-injunction-against-striking-steelworkers-claims-illegal-interference-in-its-operations/",
+        "https://mining.com.au/teck-copper-strike-reaches-bc-port-as-operator-sues-union/"
+      ],
+      "equipment_impact": "Short term: potential lower haul truck/shovel hours, delayed scheduled service access, parts and supply shipping logistics. Restart: catch-up maintenance and availability restoration may raise aftermarket demand. Long term HVC MLE equipment demand not automatically cancelled; confirm project milestones with Teck.",
+      "caveat": "Important unreported follow-up, not an event that originated on November 15. Litigation claims not court findings. No mine shut down or guidance revision verified.",
+      "_source_date": "2026-11-15"
+    },
+    {
+      "id": "ca-20261116-cnrl-advantage",
+      "page": "Canada",
+      "country": "Canada",
+      "name": "Canadian Natural / Advantage Energy",
+      "published": "2026-11-16",
+      "verified_on": "2026-11-16",
+      "priority": "P1",
+      "change_type": "Acquisition agreement",
+      "previous": "CNRLとAdvantageは別会社。AdvantageのMontney・Charlie Lake天然ガス・軽質油資産は未取得。",
+      "current": "CNRLがAdvantage全株式の取得で正式合意。総取引価値C$2.53bn（純負債等を含む）、株式価値C$2.255bn、C$13.55/株。対象生産量約79,000boe/日。2027年Q1クロージング予定（承認条件付き）。",
+      "values": {
+        "equity_value_CAD_million": 2255,
+        "transaction_value_including_debt_CAD_million": 2530,
+        "offer_CAD_per_share": 13.55,
+        "production_boe_per_day": 79000,
+        "anticipated_close": "2027-Q1"
+      },
+      "confidence": "A",
+      "source_urls": [
+        "https://www2.newsfilecorp.com/release/324091/Canadian-Natural-Resources-Limited-Enters-into-Agreement-to-Acquire-Advantage-Energy-Ltd."
+      ],
+      "equipment_impact": "CNRLグループの資本配分・Grande Prairie地域の現場保守/小型建機需要を監視。オイルサンド露天掘りのOwner変更ではなく、大型鉱山トラックの直接需要は未確認。",
+      "caveat": "Conventional Montney / Charlie Lake: oil sands mining assetではない。買収完了ではない。",
+      "method": null,
+      "_source_date": "2026-11-16"
+    },
+    {
+      "id": "ca-20261113-paladin-pls-funding",
+      "page": "Canada",
+      "country": "Canada",
+      "name": "Patterson Lake South (Triple R)",
+      "published": "2026-11-13",
+      "verified_on": "2026-11-16",
+      "priority": "P1",
+      "change_type": "Financing bookbuild completion [unreported catch-up]",
+      "previous": "PLSは建設許可審査・開発資金調達段階。11/12の資金調達開始時点ではASX A$474M+カナダC$50Mを予定。",
+      "current": "A$525Mの引受付きエクイティ・ブックビルド完了：ASX A$499M＋カナダC$25M（約A$26M）。2027–28年の早期土木・長納期設備調達に充当予定。初生産目標2031年は据置。新株発行/資金決済は11/18–19予定。",
+      "values": {
+        "equity_raise_AUD_million": 525,
+        "original_ASX_raise_AUD_million": 474,
+        "final_ASX_raise_AUD_million": 499,
+        "original_Canada_raise_CAD_million": 50,
+        "final_Canada_raise_CAD_million": 25,
+        "first_production_target_year": 2031
+      },
+      "confidence": "A",
+      "source_urls": [
+        "https://www.globenewswire.com/news-release/2026/11/13/3402365/0/en/paladin-successfully-completes-a-525-million-fully-underwritten-equity-raising.html",
+        "https://www.globenewswire.com/news-release/2026/11/12/3401204/0/en/paladin-announces-a-525-million-fully-underwritten-equity-raising-to-accelerate-paladin-s-growth-strategy.html",
+        "https://www.cnsc-ccsn.gc.ca/eng/uranium/mines-and-mills/patterson-lake/sufficiency-check/"
+      ],
+      "equipment_impact": "地下鉱山開発の掘削、坑内設備、建設用機械、発電機などの将来調達の確度が向上。ただしCNSC建設許可・FID・フルファイナンス確定ではない。",
+      "caveat": "11/13発表の未報告情報を追補。underwritten bookbuild完了と資金決済・鉱山建設許可取得を区別。",
+      "method": "Underground (planned)",
+      "_source_date": "2026-11-16"
+    },
+    {
+      "id": "ca-20261116-minto-drilling",
+      "page": "Canada",
+      "country": "Canada",
+      "name": "Minto Copper-Gold-Silver Project",
+      "published": "2026-11-16",
+      "verified_on": "2026-11-16",
+      "priority": "P2",
+      "change_type": "Drilling complete / resource update scheduled",
+      "previous": "2026 Phase2探鉱掘削計画50,000m。2026年9月PEAは2027年資源量見通しの前段階。",
+      "current": "Phase2 54,579m/223孔を完了（当初計画比約+9.2%）。Phase1+2累計106,879m/424孔。2027年3月の更新MREを計画。Phase2結果は2026 PEAの資源量・経済性に未反映。",
+      "values": {
+        "planned_phase2_drilling_m": 50000,
+        "completed_phase2_drilling_m": 54579,
+        "phase2_holes": 223,
+        "total_drilling_phase1_2_m": 106879,
+        "total_holes_phase1_2": 424,
+        "new_MRE_target": "2027-03",
+        "prior_PEA_LOM_years": 13,
+        "prior_PEA_mill_tonnes_per_day": 4100
+      },
+      "confidence": "A/B",
+      "source_urls": [
+        "https://pr.comtex.com/article/1002781269/selkirk-copper-completes-phase-2-drill-program-comprising-54579-metres-in-223-dr",
+        "https://www.newsfilecorp.com/release/315393"
+      ],
+      "equipment_impact": "既存4,100t/日処理設備の再稼働に向けた修理・更新、採掘/坑内設備調達の早期案件。許認可・FIDが条件で確定受注ではない。",
+      "caveat": "11/16の会社発表を転載サイトで確認、原文直接取得に制約。試錐完了は10/15、最終試料出荷は11/7、公表は11/16。PEAのMine Life 13年は9/22既報。",
+      "method": "Open pit and underground (restart proposed)",
+      "_source_date": "2026-11-16"
+    },
+    {
+      "id": "ca-20261116-3ts-drilling",
+      "page": "Canada",
+      "country": "Canada",
+      "name": "3Ts Gold and Silver Project",
+      "published": "2026-11-16",
+      "verified_on": "2026-11-16",
+      "priority": "P2",
+      "change_type": "New exploration drill program",
+      "previous": "Independence GoldのBC州3Tsの既存資源量（2025年11月推定）。今回の10,000m掘削キャンペーンは未開始。",
+      "current": "新規10,000mダイヤモンド掘削を開始。最大19探鉱ターゲットを調査。2025年のIndicated 378koz AuEq、Inferred 387koz AuEqは据置。",
+      "values": {
+        "new_drill_program_m": 10000,
+        "indicated_AuEq_oz": 378000,
+        "inferred_AuEq_oz": 387000,
+        "resource_as_of": "2025-11"
+      },
+      "confidence": "A",
+      "source_urls": [
+        "https://www2.newsfilecorp.com/release/324069/Independence-Gold-Announces-the-Commencement-of-a-10000-Metre-Drill-Program-at-the-3Ts-Gold-and-Silver-Project-BC"
+      ],
+      "equipment_impact": "探鉱ドリル、アクセス・物流・レンタル重機の需要。採掘方式・FID・生産予定は未確定。",
+      "caveat": "2025年の資源量は新規増量と扱わない。",
+      "method": "Exploration (mining method undecided)",
+      "_source_date": "2026-11-16"
+    },
+    {
+      "id": "canada-20261117-shasta-mets-pea",
+      "page": "Canada",
+      "country": "Canada",
+      "name": "Shasta–Mets Gold-Silver Project",
+      "published": "2026-11-17",
+      "verified_on": "2026-11-17",
+      "priority": "P1",
+      "change_type": "First PEA / updated and inaugural MRE",
+      "previous": "Shastaは2025年1月公表のMREで評価済み、Metsは独立した初回MREなし。2鉱床一体の開発PEA・初期投資額未提示。旧Shasta推計は今回の新MREにより失効。",
+      "current": "TDGがShasta＋Mets一体の露天掘りPEAとShasta改訂MRE／Mets初回MREを公表。初期CAPEX C$604.9M（予備費C$92.6M含む）、サステイニングC$152.7M。想定操業9.9年、処理約4.0Mt/年(11,000t/日)、年平均payable Au 71.2千oz、Ag 2.82百万oz。Shasta Indicated 17.12Mt、Inferred 26.84Mt、Mets Inferred 0.53Mt。",
+      "values": {
+        "base_year_of_financial_model": 2026,
+        "mine_life_years_modelled": 9.9,
+        "initial_capex_CAD_million": 604.9,
+        "initial_capex_contingency_CAD_million": 92.6,
+        "sustaining_capex_CAD_million": 152.7,
+        "processing_Mt_per_year": 4.0,
+        "processing_tonnes_per_day": 11000,
+        "average_payable_gold_koz_per_year": 71.2,
+        "average_payable_silver_Moz_per_year": 2.82,
+        "shasta_indicated_Mt": 17.12,
+        "shasta_inferred_Mt": 26.84,
+        "mets_inferred_Mt": 0.53,
+        "peak_annual_total_material_movement_Mt": 16.8,
+        "waste_stripping_total_Mt": 83.42,
+        "strip_ratio_to_ore": 2.18,
+        "after_tax_NPV5_CAD_billion": 1.18,
+        "after_tax_IRR_pct": 38.8,
+        "base_gold_USD_per_oz": 3550,
+        "base_silver_USD_per_oz": 50,
+        "MRE_effective_date": "2026-11-17"
+      },
+      "confidence": "A",
+      "source_urls": [
+        "https://www.globenewswire.com/news-release/2026/11/17/3404459/0/en/tdg-announces-preliminary-economic-assessment-for-the-shasta-au-ag-project.html"
+      ],
+      "equipment_impact": "会社所有のTruck & Shovelフリートを初期投資に含める構想。大型ダンプ、ショベル、ドリル、破砕・SAG/Ballミル、発電、GET/タイヤ、定期メンテナンスの潜在需要。FID/許認可前のため確定受注ではない。",
+      "caveat": "PEAはInferred資源を含み埋蔵量ではない。2024/2025 MREと範囲・cutoffが異なるため資源量成長率を単純計算しない。Shasta/Metsの旧採掘許可は提案された統合施設の建設許可を意味しない。",
+      "_source_date": "2026-11-17"
+    },
+    {
+      "id": "canada-20261116-mactung-grant",
+      "page": "Canada",
+      "country": "Canada",
+      "name": "Mactung Tungsten Project",
+      "published": "2026-11-16",
+      "verified_on": "2026-11-17",
+      "priority": "P1",
+      "change_type": "Federal funding commitment / engineering and validation",
+      "previous": "更新FSを2027年初めに完成させるため技術・許認可関連検討を進行。米国DPA支援等は既発表であり今回の新規資金とは別。",
+      "current": "カナダ天然資源省がFireweed Metalsに最大C$14.0Mの支援を発表。対象はMactung鉱山の技術設計、検証とFIDに向けた技術作業。実際の建設承認・資金全額受領ではない。",
+      "values": {
+        "new_government_support_up_to_CAD_million": 14.0,
+        "existing_North_Canol_Canadian_infrastructure_support_CAD_million": 12.9,
+        "target_FS_publication": "early 2027",
+        "historical_resource_indicated_Mt_2023": 41.5,
+        "historical_resource_indicated_WO3_pct_2023": 0.73,
+        "historical_resource_inferred_Mt_2023": 12.2,
+        "historical_resource_inferred_WO3_pct_2023": 0.59
+      },
+      "confidence": "A",
+      "source_urls": [
+        "https://www.canada.ca/en/natural-resources-canada/news/2026/11/canada-invests-in-critical-mineral-mining-in-the-yukon.html",
+        "https://fireweedmetals.com/fireweed-metals-commences-mactung-tungsten-project-feasibility-study/"
+      ],
+      "equipment_impact": "直近は試験・設計・測量・探鉱ドリル、進入道路や電源インフラの先行商機。更新FS後に地下/露天設備、電源、保守の具体需要を評価。",
+      "caveat": "政府発表は「最大14百万CAD」の支援。FID実施、建設開始または最新CAPEX確定の公表ではない。タングステンは鉱山監視対象であるが指定20市況品目には含まれない。",
+      "_source_date": "2026-11-17"
+    },
+    {
+      "id": "canada-20261117-adina-drill",
+      "page": "Canada",
+      "country": "Canada",
+      "name": "Adina Lithium Project",
+      "published": "2026-11-17",
+      "verified_on": "2026-11-17",
+      "priority": "P2",
+      "change_type": "Exploration drill results / 2027 evaluation milestone",
+      "previous": "2026年10月26日までに先行5孔の分析結果を発表。更新MRE/PEAは準備段階。",
+      "current": "2026年夏季調査の追加11孔を公表。GalinéeゾーンALP0007で45m（孔内長）平均2.71% Li₂O、ALP0016で25m 2.71% Li₂O。合計39孔11,420.5mを掘削、旧地質孔6孔含め計45孔13,403.5mを処理。更新MREとPEAは2027年初めを目標。",
+      "values": {
+        "new_drillholes_reported": 11,
+        "highlight_drillhole": "ALP0007",
+        "intercept_length_downhole_m": 45,
+        "Li2O_grade_pct": 2.71,
+        "additional_drillhole": "ALP0016",
+        "additional_intercept_m": 25,
+        "additional_Li2O_pct": 2.71,
+        "drilled_2026_holes": 39,
+        "drilled_2026_metres": 11420.5,
+        "updated_MRE_and_PEA_target": "early 2027"
+      },
+      "confidence": "A",
+      "source_urls": [
+        "https://www.li-ft.com/news/lift-announces-results-from-summer-drilling-at-the-adina-lithium-project-qubec"
+      ],
+      "equipment_impact": "探鉱ドリル・地質調査が主な近接需要。2027年のPEAで露天/坑内採掘方式、設備構成、稼働開始時期の絞込みを監視。",
+      "caveat": "45mは孔内長、真厚不明。分析値は資源量や鉱量の改訂ではない。鉱山建設やFID未実施。",
+      "_source_date": "2026-11-17"
+    },
+    {
+      "id": "ca-20261117-pl-gold-underground-correction",
+      "page": "Canada",
+      "country": "Canada",
+      "name": "PL Gold Mine",
+      "published": "2026-11-17",
+      "verified_on": "2026-11-18",
+      "priority": "P1",
+      "change_type": "Mine schedule correction / NI 43-101 PEA filing",
+      "previous": "2026-10-14会社ニュースリリースでは地下採掘開始を2028年半ば、地下採掘期間を2028–2037年と記載。",
+      "current": "2026-11-17会社が誤記を訂正。地下開発2029-01開始、地下鉱石生産2029-03開始、地下採掘期間2029–2037年。2028年は地下産出0t。露天掘り2028–2030年・2028–2037年の全体Mine Life 10年・初期CAPEX US$53.4Mは変更なし。",
+      "values": {
+        "old_underground_production_start": "mid-2028 (incorrect October 14 statement)",
+        "new_underground_development_start": "2029-01",
+        "new_underground_ore_production_start": "2029-03",
+        "mine_life_start_year": 2028,
+        "mine_life_end_year": 2037,
+        "open_pit_years": "2028-2030",
+        "preproduction_capex_USD_million": 53.4,
+        "capex_change": false,
+        "full_year_gold_koz_average_PEA": 62.2
+      },
+      "confidence": "A",
+      "source_urls": [
+        "https://minnovacorp.s0.adnetcms.com/news/minnova-corp-announces-filing-of-ni-43-101-technical-report-on-the-preliminary-economic-assessment-for-pl-gold-mine-and/"
+      ],
+      "equipment_impact": "坑内設備・掘削機、LHD、坑内運搬・換気等の立上げ時期を2029年へ修正。初期投資総額や経済性の再試算は不要（会社説明）。露天掘りの2028年着工想定は変わらず、FID前。",
+      "caveat": "会社訂正は以前のリリースの誤記であり、PEA内部モデルを遅延させる新規経営判断ではない。現実の建設確約ではない。"
+    },
+    {
+      "id": "ca-20261118-benoist-mre",
+      "page": "Canada",
+      "country": "Canada",
+      "name": "Benoist Gold Project",
+      "published": "2026-11-18",
+      "verified_on": "2026-11-18",
+      "priority": "P2",
+      "change_type": "Updated NI 43-101 Mineral Resource Estimate",
+      "previous": "2020年MREなど旧推定が存在。旧推定と2026年はカットオフ・地下採掘形状制約が異なるため、単純な増減率の比較不可。",
+      "current": "新MRE（有効日2026-10-14）: Indicated 2.072Mt @2.26g/t Au=150,700oz、Inferred 1.6206Mt @1.67g/t Au=86,900oz。地下ロングホール採掘を想定した概略形状、カットオフ1.2g/t Au。PEA/PFS/FS未実施。",
+      "values": {
+        "estimate_effective_date": "2026-10-14",
+        "indicated_tonnes": 2072000,
+        "indicated_gold_gpt": 2.26,
+        "indicated_gold_oz": 150700,
+        "inferred_tonnes": 1620600,
+        "inferred_gold_gpt": 1.67,
+        "inferred_gold_oz": 86900,
+        "gold_cutoff_gpt": 1.2,
+        "conceptual_underground_tpd_low": 4000,
+        "conceptual_underground_tpd_high": 4500,
+        "mine_life_years": null
+      },
+      "confidence": "A",
+      "source_urls": [
+        "https://www.tmxnewsfile.com/release/324583/Epic-Gold-Announces-Updated-Benoist-Gold-Project-Mineral-Resource-Estimate-with-150700-Indicated-Ounces-at-2.26-gt-Au-and-86900-Inferred-Ounces-at-1.67-gt-Au"
+      ],
+      "equipment_impact": "現段階は追加コアドリリング・坑内概念設計需要。PEAもFIDも未実施につき、4,000–4,500t/日の概念処理量を採掘機・プラント確定発注に換算しない。",
+      "caveat": "Mineral Resources（埋蔵量ではない）。過去推定との条件整合性未確認、前年比増加幅を算出しない。"
+    },
+    {
+      "id": "ca-20261117-east-sudbury-zone3",
+      "page": "Canada",
+      "country": "Canada",
+      "name": "East Sudbury Project",
+      "published": "2026-11-17",
+      "verified_on": "2026-11-18",
+      "priority": "P2",
+      "change_type": "New gold mineralized zone / drilling",
+      "previous": "既存のEast-West Pit Zone 2などを探鉱。Zone 3新規金帯未報告。",
+      "current": "CanucがZone 3を発見。SM-26-170孔で8.0m @2.99g/t Au（孔内長）、Zone 2で9.0m @1.23g/t Au。2026年末～2027年初頭の初回MREを計画。鉱区約20,078ha。",
+      "values": {
+        "zone3_drillhole": "SM-26-170",
+        "downhole_m": 8.0,
+        "gold_gpt": 2.99,
+        "zone2_downhole_m": 9.0,
+        "zone2_gold_gpt": 1.23,
+        "claims_hectares": 20078,
+        "maiden_MRE_target": "2026-12 to 2027-01",
+        "true_width_confirmed": false
+      },
+      "confidence": "A",
+      "source_urls": [
+        "https://canucresources.ca/news/canuc-discovers-new-gold-zone-at-east-sudbury-project/"
+      ],
+      "equipment_impact": "探鉱ドリル契約・地球物理探査の潜在需要。初回MRE前の早期探鉱案件で大型建機本体の短期需要は限定的。",
+      "caveat": "記載厚は孔内長で真幅不明。資源量・埋蔵量は未確定。"
+    }
+  ],
+  "market_changes": [
+    {
+      "page": "Commodity",
+      "commodity": "Brent",
+      "date": "2026-11-10",
+      "as_of": "2026-11-09 settlement and 2026-11-10 13:34 GMT intraday",
+      "indicator": "Brent Jan 2027 futures (Reuters)",
+      "previous": "2026-11-09 early intraday USD96.89/bbl in prior dashboard report (different timestamp)",
+      "current": "2026-11-09 settlement USD92.57/bbl (-5.85% session); 2026-11-10 13:34 GMT USD89.65/bbl (-3.15% versus preceding settlement), intraday not closing",
+      "value": 89.65,
+      "previous_settlement": 92.57,
+      "settlement_date": "2026-11-09",
+      "unit": "USD/bbl",
+      "significance": "P1: consecutive sharp declines; Oct30 2026 high ~USD118/bbl to Nov10 ~USD89.65/bbl about -24%, different price dates/times",
+      "confidence": "B",
+      "source": "https://www.reuters.com/business/energy/oil-falls-trump-downplays-prospect-escalation-with-iran-2026-11-10/",
+      "additional_source": "https://www.reuters.com/business/energy/oil-falls-open-trump-says-fresh-iran-attacks-unlikely-2026-11-08/",
+      "equipment_impact": "Potential reduction in Canadian oil sands margins and discretionary mine CAPEX if persistent; reduced diesel costs partially offset impact. Must combine WCS differential and realizations.",
+      "_source_date": "2026-11-12"
+    },
+    {
+      "page": "Commodity",
+      "commodity": "WTI",
+      "date": "2026-11-10",
+      "as_of": "2026-11-09 settlement and 2026-11-10 13:34 GMT intraday",
+      "indicator": "WTI Dec 2026 futures (Reuters)",
+      "previous": "2026-11-09 early intraday USD89.80/bbl in prior dashboard report (different timestamp)",
+      "current": "2026-11-09 settlement USD86.85/bbl (-4.4% session); 2026-11-10 13:34 GMT USD84.52/bbl (-2.68% versus preceding settlement), intraday not closing",
+      "value": 84.52,
+      "previous_settlement": 86.85,
+      "settlement_date": "2026-11-09",
+      "unit": "USD/bbl",
+      "significance": "P1: consecutive sharp declines and oil sands cash-flow sensitivity",
+      "confidence": "B",
+      "source": "https://www.reuters.com/business/energy/oil-falls-trump-downplays-prospect-escalation-with-iran-2026-11-10/",
+      "additional_source": "https://www.reuters.com/business/energy/oil-falls-open-trump-says-fresh-iran-attacks-unlikely-2026-11-08/",
+      "equipment_impact": "Monitor sustaining versus growth CAPEX sensitivity to WTI. A WTI drop cannot be applied to WCS dollar-for-dollar without checking same-period differential.",
+      "_source_date": "2026-11-12"
+    },
+    {
+      "page": "Commodity",
+      "commodity": "WCS",
+      "date": "2026-11-09",
+      "as_of": "2026-11-09 daily broker settlement, Hardisty Alberta December 2026 delivery",
+      "indicator": "WCS differential to WTI, CalRock via Reuters (not outright WCS price)",
+      "previous": "2026-11-06 Hardisty differential -USD26.00/bbl",
+      "current": "2026-11-09 Hardisty differential -USD25.00/bbl, narrower by USD1.00/bbl; Nov 3 reached -USD31.60/bbl. Not a WCS outright quote.",
+      "value": -25.0,
+      "previous_value": -26.0,
+      "unit": "USD/bbl vs WTI",
+      "significance": "P2: spreads narrowing while outright WTI and Brent fall; remains materially wide",
+      "confidence": "B",
+      "source": "https://boereport.com/2026/11/09/discount-on-western-canada-select-narrows-54/amp/",
+      "equipment_impact": "WCS narrowing mitigates but may not offset sharp benchmark falls. Look at realizations for heavy oil producers separately from synthetic crude producers.",
+      "_source_date": "2026-11-12"
+    },
+    {
+      "page": "Commodity",
+      "commodity": "Brent",
+      "date": "2026-11-10",
+      "as_of": "Nov 2026 EIA STEO, 2027 calendar-year annual-average spot-price forecast",
+      "indicator": "EIA Brent spot annual average 2027 (NOT futures settlement or current spot)",
+      "previous": "2026-10-06 EIA forecast US$83.74/bbl",
+      "current": "2026-11-10 EIA forecast US$85.78/bbl (+US$2.04/bbl; ~2.4%)",
+      "value": 85.78,
+      "previous_value": 83.74,
+      "unit": "USD/bbl",
+      "significance": "P1: official forecast revision, next-year oil-sands capital-allocation context",
+      "confidence": "A",
+      "source": "https://www.eia.gov/outlooks/steo/outlook.php",
+      "equipment_impact": "Supports longer-range oil-sands revenue assumptions at the margin, but forecast still implies 2027 Brent below 2026; Canadian WCS discounts remain independent.",
+      "_source_date": "2026-11-12"
+    },
+    {
+      "page": "Commodity",
+      "commodity": "WTI",
+      "date": "2026-11-10",
+      "as_of": "Nov 2026 EIA STEO, 2027 calendar-year annual-average spot-price forecast",
+      "indicator": "EIA WTI spot annual average 2027 (NOT futures settlement or current spot)",
+      "previous": "2026-10-06 EIA forecast US$79.74/bbl",
+      "current": "2026-11-10 EIA forecast US$80.54/bbl (+US$0.80/bbl; ~1.0%)",
+      "value": 80.54,
+      "previous_value": 79.74,
+      "unit": "USD/bbl",
+      "significance": "P2: official forecast revision",
+      "confidence": "A",
+      "source": "https://www.eia.gov/outlooks/steo/outlook.php",
+      "equipment_impact": "Oil-sands price assumptions slightly higher than prior month; actual WCS realizations not inferred from this WTI projection.",
+      "_source_date": "2026-11-12"
+    },
+    {
+      "page": "Commodity",
+      "commodity": "US on-highway diesel (mining energy cost reference)",
+      "date": "2026-11-10",
+      "as_of": "Nov 2026 EIA STEO annual average 2027; USA retail diesel forecast only",
+      "indicator": "EIA US on-highway retail diesel annual average 2027",
+      "previous": "2026-10-06 EIA forecast US$4.49/US gallon",
+      "current": "2026-11-10 EIA forecast US$5.03/US gallon (+12%)",
+      "value": 5.03,
+      "previous_value": 4.49,
+      "unit": "USD/US gallon",
+      "significance": "P2: energy cost sensitivity; not Canadian bulk/industrial diesel price",
+      "confidence": "A",
+      "source": "https://www.eia.gov/outlooks/steo/outlook.php",
+      "equipment_impact": "Higher diesel cost pressure for haul fleets if mirrored in Canada; not directly transferable to Canadian off-road diesel procurement.",
+      "_source_date": "2026-11-12"
+    },
+    {
+      "page": "Commodity",
+      "commodity": "Lithium (SC5.5 study assumption, NOT observed market price)",
+      "date": "2026-11-10",
+      "as_of": "2025 vs 2026 Shaakichiuwaanaan Feasibility Studies; long-term model input",
+      "indicator": "PMET Shaakichiuwaanaan long-term spodumene SC5.5 FOB Quebec economic model price",
+      "previous": "2025 FS US$1,221/t",
+      "current": "2026 updated FS US$1,788/t (+46%), long-term price assumption, not spot or institution annual forecast",
+      "value": 1788,
+      "previous_value": 1221,
+      "unit": "USD/t SC5.5",
+      "significance": "P1: huge assumption change drives FS NPV increase; should never overwrite commodity spot series",
+      "confidence": "A (company study assumption)",
+      "source": "https://www.newswire.ca/news-releases/pmet-resources-delivers-enhanced-cv5-lithium-tantalum-feasibility-study-869908836.html",
+      "equipment_impact": "Larger modeled project NPV but sensitive to lithium prices; avoid interpreting as fresh spot price appreciation.",
+      "_source_date": "2026-11-12"
+    },
+    {
+      "page": "Commodity",
+      "commodity": "Brent",
+      "date": "2026-11-11",
+      "as_of": "2026-11-11 futures settlement; source time New York, Reuters",
+      "indicator": "Brent futures, Reuters reported settlement",
+      "previous": "2026-11-10 settlement computed from Reuters Nov11 delta: USD91.49/bbl",
+      "current": "2026-11-11 settlement USD92.76/bbl, +USD1.27/bbl (+1.39%)",
+      "value": 92.76,
+      "previous_value": 91.49,
+      "unit": "USD/bbl",
+      "significance": "Reference price update; not a new EIA forecast; daily move below exceptional-event threshold",
+      "confidence": "B",
+      "source": "https://www.reuters.com/business/energy/oil-rises-two-month-low-hormuz-shipping-attacks-offset-iran-truce-hopes-2026-11-11/",
+      "equipment_impact": "Oil sands investment sentiment depends on sustained WCS-linked realized pricing; one-day rise does not establish capex change.",
+      "_source_date": "2026-11-12"
+    },
+    {
+      "page": "Commodity",
+      "commodity": "WTI",
+      "date": "2026-11-11",
+      "as_of": "2026-11-11 futures settlement; source time New York, Reuters",
+      "indicator": "WTI futures, Reuters reported settlement",
+      "previous": "2026-11-10 settlement computed from Reuters Nov11 delta: USD86.04/bbl",
+      "current": "2026-11-11 settlement USD86.53/bbl, +USD0.49/bbl (+0.57%)",
+      "value": 86.53,
+      "previous_value": 86.04,
+      "unit": "USD/bbl",
+      "significance": "Reference price update; not a new EIA forecast",
+      "confidence": "B",
+      "source": "https://www.reuters.com/business/energy/oil-rises-two-month-low-hormuz-shipping-attacks-offset-iran-truce-hopes-2026-11-11/",
+      "equipment_impact": "No confirmed oil-sands mine capital-spending change solely from daily WTI movement.",
+      "_source_date": "2026-11-12"
+    },
+    {
+      "page": "Commodity",
+      "commodity": "Brent; WTI; WCS",
+      "date": "2026-11-13",
+      "as_of": "IEA Oil Market Report, Nov 13 2026; global physical balance (NOT a crude price forecast)",
+      "indicator": "Global oil supply-demand balance / revisions",
+      "previous": {
+        "published": "2026-10-14",
+        "global_oil_demand_change_2026_mbd_yoy": -2.6,
+        "global_oil_supply_change_2026_mbd_yoy": -5.8,
+        "global_oil_supply_growth_2027_mbd_yoy": 7.7,
+        "world_oil_demand_growth_2027_mbd_yoy": 2.0
+      },
+      "current": {
+        "published": "2026-11-13",
+        "global_oil_demand_change_2026_mbd_yoy": -2.7,
+        "global_oil_supply_change_2026_mbd_yoy": -4.8,
+        "global_oil_supply_growth_2027_mbd_yoy": 6.6,
+        "world_oil_demand_growth_2027_mbd_yoy": 2.0,
+        "revised_q4_2026_global_supply_mbd": 3.3,
+        "q4_2026_estimated_surplus_mbd": 1.7,
+        "oil_supply_oct_2026_mbd": 105.4,
+        "oil_demand_2026_mbd": 102.3,
+        "oil_supply_2027_mbd": 108.1,
+        "oct_2026_global_oil_inventory_change_million_bbl": 52
+      },
+      "unit": "million barrels per day (mb/d), inventories million bbl",
+      "priority": "P1",
+      "confidence": "A",
+      "sources": [
+        "https://www.iea.org/reports/oil-market-report-november-2026",
+        "https://www.iea.org/reports/oil-market-report-october-2026"
+      ],
+      "equipment_impact": "Global oil market expected to turn surplus in Q4 2026: longer-term pressure on Western Canada oil-sands realized revenues and 2027 capital-budget decisions; do not infer any operator has actually cut approved mining capex. Diesel stays tight, so mine fleet fuel cost remains important.",
+      "caveat": "Supply balance outlook; not a revision to IEA Brent or WTI dollar price forecast. Annual y/y growth and Q4 forecast revisions are distinct measures.",
+      "_source_date": "2026-11-13"
+    },
+    {
+      "page": "Commodity",
+      "commodity": "Gold",
+      "date": "2026-11-12",
+      "as_of": "2026-11-12 13:53 US Eastern spot quote; Reuters; preliminary reference",
+      "indicator": "Spot gold USD/troy oz, intra-day quote",
+      "previous": "2026-11-11 reference quote USD3,986.79/oz (Reuters; not matched clock-time close)",
+      "current": "2026-11-12 spot USD3,880.93/oz; Reuters reports -2.7% same-day; lowest since Oct 2025",
+      "value": 3880.93,
+      "previous_value": 3986.79,
+      "unit": "USD/troy oz",
+      "priority": "P1",
+      "confidence": "B",
+      "source": "https://www.reuters.com/world/india/gold-falls-over-one-week-low-firm-dollar-fed-rate-hike-bets-2026-11-12/",
+      "equipment_impact": "Lower near-term gold prices can reduce cash margins of high-cost gold mines and raise FID sensitivity; no individual mine capex or production change verified.",
+      "caveat": "Do not blend spot quote with COMEX Dec 2026 settlement USD3,885.30/oz, which is a different series.",
+      "_source_date": "2026-11-13"
+    },
+    {
+      "page": "Commodity",
+      "commodity": "Brent",
+      "date": "2026-11-12",
+      "as_of": "Nov 12 2026 Reuters futures settlement",
+      "indicator": "Brent front-month futures USD/bbl",
+      "previous": "2026-11-11 settlement USD92.76/bbl",
+      "current": "2026-11-12 settlement USD95.82/bbl; +3.3%",
+      "value": 95.82,
+      "previous_value": 92.76,
+      "unit": "USD/bbl",
+      "priority": "P2",
+      "confidence": "B",
+      "source": "https://www.reuters.com/business/energy/oil-prices-drop-more-than-1-hopes-iran-ukraine-peace-talks-pressure-markets-2026-11-12/",
+      "equipment_impact": "Short-term oil price rebound does not overturn the IEA projected Q4 surplus; keep separate from WCS realized prices.",
+      "_source_date": "2026-11-13"
+    },
+    {
+      "page": "Commodity",
+      "commodity": "WTI",
+      "date": "2026-11-12",
+      "as_of": "Nov 12 2026 Reuters futures settlement",
+      "indicator": "WTI front-month futures USD/bbl",
+      "previous": "2026-11-11 settlement USD86.53/bbl",
+      "current": "2026-11-12 settlement USD88.74/bbl; +2.6%",
+      "value": 88.74,
+      "previous_value": 86.53,
+      "unit": "USD/bbl",
+      "priority": "P2",
+      "confidence": "B",
+      "source": "https://www.reuters.com/business/energy/oil-prices-drop-more-than-1-hopes-iran-ukraine-peace-talks-pressure-markets-2026-11-12/",
+      "equipment_impact": "WTI reference price rose but heavy-oil netbacks also depend on WCS discount, shipping and diluent.",
+      "_source_date": "2026-11-13"
+    },
+    {
+      "page": "Commodity",
+      "commodity": "WCS",
+      "date": "2026-11-12",
+      "as_of": "Nov 12 2026 CalRock Hardisty December 2026 delivery WCS relative to WTI settlement; sourced via secondary report",
+      "indicator": "Hardisty WCS discount to WTI (negative = discount)",
+      "previous": "2026-11-10 USD -25.75/bbl; market closed in Canada Nov 11",
+      "current": "2026-11-12 USD -26.60/bbl (discount widened by 0.85 USD/bbl)",
+      "value": -26.6,
+      "previous_value": -25.75,
+      "unit": "USD/bbl differential",
+      "priority": "P2",
+      "confidence": "B",
+      "source": "https://ca.investing.com/news/stock-market-news/western-canada-select-discount-to-wti-widens-to-2660-a-barrel-93CH-4954485",
+      "equipment_impact": "Widening discount offsets part of WTI recovery for oil-sands sellers; potential short-term pressure on heavy-oil netbacks and cash flow.",
+      "caveat": "Differential only, not WCS absolute price. Basis is December delivery in Hardisty, not a same-month WTI outright spot.",
+      "_source_date": "2026-11-13"
+    },
+    {
+      "page": "Commodity",
+      "commodity": "Copper",
+      "date": "2026-11-12",
+      "as_of": "London Metal Exchange official cash ask; Nov 11 versus Nov 12 2026",
+      "indicator": "LME official cash ask price",
+      "previous": "2026-11-11 USD13,875.50/t",
+      "current": "2026-11-12 USD13,712.00/t; -1.18%",
+      "value": 13712.0,
+      "previous_value": 13875.5,
+      "unit": "USD/metric tonne",
+      "priority": "Reference",
+      "confidence": "A",
+      "source": "https://www.lme.com/Market-data/Reports-and-data/LME-Official-Prices",
+      "equipment_impact": "Daily physical reference price only; no new mine FID, production guidance or mine fleet procurement decision follows from these movements.",
+      "caveat": "Use same official cash ask contract; do not combine with 3-month quotes or futures settlements.",
+      "_source_date": "2026-11-13"
+    },
+    {
+      "page": "Commodity",
+      "commodity": "Zinc",
+      "date": "2026-11-12",
+      "as_of": "London Metal Exchange official cash ask; Nov 11 versus Nov 12 2026",
+      "indicator": "LME official cash ask price",
+      "previous": "2026-11-11 USD3,794.00/t",
+      "current": "2026-11-12 USD3,760.50/t; -0.88%",
+      "value": 3760.5,
+      "previous_value": 3794.0,
+      "unit": "USD/metric tonne",
+      "priority": "Reference",
+      "confidence": "A",
+      "source": "https://www.lme.com/Market-data/Reports-and-data/LME-Official-Prices",
+      "equipment_impact": "Daily physical reference price only; no new mine FID, production guidance or mine fleet procurement decision follows from these movements.",
+      "caveat": "Use same official cash ask contract; do not combine with 3-month quotes or futures settlements.",
+      "_source_date": "2026-11-13"
+    },
+    {
+      "page": "Commodity",
+      "commodity": "Nickel",
+      "date": "2026-11-12",
+      "as_of": "London Metal Exchange official cash ask; Nov 11 versus Nov 12 2026",
+      "indicator": "LME official cash ask price",
+      "previous": "2026-11-11 USD15,930.00/t",
+      "current": "2026-11-12 USD16,010.00/t; +0.50%",
+      "value": 16010.0,
+      "previous_value": 15930.0,
+      "unit": "USD/metric tonne",
+      "priority": "Reference",
+      "confidence": "A",
+      "source": "https://www.lme.com/Market-data/Reports-and-data/LME-Official-Prices",
+      "equipment_impact": "Daily physical reference price only; no new mine FID, production guidance or mine fleet procurement decision follows from these movements.",
+      "caveat": "Use same official cash ask contract; do not combine with 3-month quotes or futures settlements.",
+      "_source_date": "2026-11-13"
+    },
+    {
+      "page": "Commodity",
+      "commodity": "Cobalt",
+      "date": "2026-11-12",
+      "as_of": "London Metal Exchange official cash ask; Nov 11 versus Nov 12 2026",
+      "indicator": "LME official cash ask price",
+      "previous": "2026-11-11 USD33,080.00/t",
+      "current": "2026-11-12 USD33,090.00/t; +0.03%",
+      "value": 33090.0,
+      "previous_value": 33080.0,
+      "unit": "USD/metric tonne",
+      "priority": "Reference",
+      "confidence": "A",
+      "source": "https://www.lme.com/Market-data/Reports-and-data/LME-Official-Prices",
+      "equipment_impact": "Daily physical reference price only; no new mine FID, production guidance or mine fleet procurement decision follows from these movements.",
+      "caveat": "Use same official cash ask contract; do not combine with 3-month quotes or futures settlements.",
+      "_source_date": "2026-11-13"
+    },
+    {
+      "page": "Commodity",
+      "commodity": "Silver",
+      "date": "2026-11-13",
+      "indicator": "COMEX/front-month futures settlement; week-over-week",
+      "previous": {
+        "period": "2026-11-06 settlement inferred from 5.35% weekly change",
+        "price_usd_oz": 51.802
+      },
+      "current": {
+        "period": "2026-11-13 settlement",
+        "price_usd_oz": 49.031,
+        "weekly_change_pct": -5.35,
+        "daily_change_pct": -1.88,
+        "new_52week_closing_low": true
+      },
+      "unit": "US$/troy oz",
+      "priority": "P2",
+      "confidence": "B",
+      "sources": [
+        "https://www.wsj.com/finance/commodities-futures/gold-edges-higher-in-technical-rebound-10e4e211"
+      ],
+      "equipment_impact": "銀を副産するカナダ多金属鉱山・開発案件の販売収入の感応度に注意。短期価格変動だけではCAPEX変更とは判定しない。",
+      "caveat": "前週値は週間下落率からの推計値であり独立して確認した公式終値ではない。COMEX先物と現物を混同しない。",
+      "_source_date": "2026-11-14"
+    },
+    {
+      "page": "Commodity",
+      "commodity": "Gold",
+      "date": "2026-11-13",
+      "indicator": "COMEX/front-month futures settlement; weekly performance",
+      "previous": {
+        "period": "2026-11-06 settlement",
+        "price_usd_oz": 4064.5,
+        "source": "2026-11-07 daily report (COMEX futures, contract possibly different)"
+      },
+      "current": {
+        "period": "2026-11-13 settlement",
+        "price_usd_oz": 3879.7,
+        "weekly_change_pct": -4.55
+      },
+      "unit": "US$/troy oz",
+      "priority": "P2",
+      "confidence": "B",
+      "sources": [
+        "https://www.wsj.com/finance/commodities-futures/gold-edges-higher-in-technical-rebound-10e4e211"
+      ],
+      "equipment_impact": "Goldboroなど新規金鉱山のNPV・FID感応度を監視するが単週の下落で建設中止とは評価しない。",
+      "caveat": "本件は11月12日の金価格急落報告への週末確定値追補。11月7日報告の先物限月と今回フロント月が同一とは限らない。",
+      "_source_date": "2026-11-14"
+    },
+    {
+      "page": "Commodity",
+      "commodity": "Brent; WTI",
+      "date": "2026-11-13",
+      "indicator": "Reuters futures settlement prices and weekly changes",
+      "previous": {
+        "Brent_2026_11_12_usd_bbl": 95.82,
+        "WTI_2026_11_12_usd_bbl": 88.74
+      },
+      "current": {
+        "Brent_2026_11_13_usd_bbl": 95.84,
+        "WTI_2026_11_13_usd_bbl": 88.56,
+        "Brent_weekly_approx_pct": -2.5,
+        "WTI_weekly_approx_pct": -2.5
+      },
+      "unit": "US$/bbl",
+      "priority": "Reference",
+      "confidence": "B",
+      "sources": [
+        "https://www.reuters.com/business/energy/oil-prices-set-second-weekly-decline-trump-stay-with-iran-blockade-2026-11-13/"
+      ],
+      "equipment_impact": "既報の11月13日IEA供給超過見通しと照合しOil Sands 2027年CAPEXの下方感応度を監視。",
+      "caveat": "11月13日IEA予測改訂は前回既報なので再計上しない。WCS同一定義の11/13値を未取得、上書きしない。",
+      "_source_date": "2026-11-14"
+    },
+    {
+      "page": "Commodity",
+      "commodity": "Copper",
+      "date": "2026-11-13",
+      "indicator": "LME Official cash ask",
+      "previous": {
+        "date": "2026-11-12",
+        "price_usd_t": 13712
+      },
+      "current": {
+        "date": "2026-11-13",
+        "price_usd_t": 13610,
+        "change_pct": -0.744
+      },
+      "unit": "US$/metric tonne",
+      "priority": "Reference",
+      "confidence": "A",
+      "sources": [
+        "https://www.lme.com/Market-data/Reports-and-data/LME-Official-Prices"
+      ],
+      "equipment_impact": "市場トレンド監視用。単日変動が建機設備投資変更を直接意味するものではない。",
+      "caveat": "公式Cash Ask。LME 3-monthとは区別。",
+      "_source_date": "2026-11-14"
+    },
+    {
+      "page": "Commodity",
+      "commodity": "Zinc",
+      "date": "2026-11-13",
+      "indicator": "LME Official cash ask",
+      "previous": {
+        "date": "2026-11-12",
+        "price_usd_t": 3760.5
+      },
+      "current": {
+        "date": "2026-11-13",
+        "price_usd_t": 3745,
+        "change_pct": -0.412
+      },
+      "unit": "US$/metric tonne",
+      "priority": "Reference",
+      "confidence": "A",
+      "sources": [
+        "https://www.lme.com/Market-data/Reports-and-data/LME-Official-Prices"
+      ],
+      "equipment_impact": "市場トレンド監視用。単日変動が建機設備投資変更を直接意味するものではない。",
+      "caveat": "公式Cash Ask。LME 3-monthとは区別。",
+      "_source_date": "2026-11-14"
+    },
+    {
+      "page": "Commodity",
+      "commodity": "Nickel",
+      "date": "2026-11-13",
+      "indicator": "LME Official cash ask",
+      "previous": {
+        "date": "2026-11-12",
+        "price_usd_t": 16010
+      },
+      "current": {
+        "date": "2026-11-13",
+        "price_usd_t": 16025,
+        "change_pct": 0.094
+      },
+      "unit": "US$/metric tonne",
+      "priority": "Reference",
+      "confidence": "A",
+      "sources": [
+        "https://www.lme.com/Market-data/Reports-and-data/LME-Official-Prices"
+      ],
+      "equipment_impact": "市場トレンド監視用。単日変動が建機設備投資変更を直接意味するものではない。",
+      "caveat": "公式Cash Ask。LME 3-monthとは区別。",
+      "_source_date": "2026-11-14"
+    },
+    {
+      "page": "Commodity",
+      "commodity": "Cobalt",
+      "date": "2026-11-13",
+      "indicator": "LME Official cash ask",
+      "previous": {
+        "date": "2026-11-12",
+        "price_usd_t": 33090
+      },
+      "current": {
+        "date": "2026-11-13",
+        "price_usd_t": 33095,
+        "change_pct": 0.015
+      },
+      "unit": "US$/metric tonne",
+      "priority": "Reference",
+      "confidence": "A",
+      "sources": [
+        "https://www.lme.com/Market-data/Reports-and-data/LME-Official-Prices"
+      ],
+      "equipment_impact": "市場トレンド監視用。単日変動が建機設備投資変更を直接意味するものではない。",
+      "caveat": "公式Cash Ask。LME 3-monthとは区別。",
+      "_source_date": "2026-11-14"
+    },
+    {
+      "id": "silver-supply-demand-2026-revision",
+      "page": "Commodity",
+      "commodity": "Silver",
+      "published": "2026-11-12",
+      "verified_on": "2026-11-16",
+      "priority": "P1",
+      "metric": "2026 global supply/demand balance forecast",
+      "previous": "2026年の供給不足予測46.3百万トロイoz（Silver Institute 2026/4/15）、需要1.11十億oz",
+      "current": "2026年の供給不足予測35百万トロイoz（Silver Institute 2026/11/12）、需要1.08十億oz",
+      "values": {
+        "previous_deficit_Moz": 46.3,
+        "revised_deficit_Moz": 35.0,
+        "revision_Moz": -11.3,
+        "previous_demand_Boz": 1.11,
+        "revised_demand_Boz": 1.08,
+        "year": 2026
+      },
+      "confidence": "A",
+      "source_urls": [
+        "https://silverinstitute.org/elevated-lease-rates-regional-liquidity-tightness-and-robust-investor-interest-resulted-in-record-silver-prices-in-2025/",
+        "https://silverinstitute.org/silver-market-set-for-sixth-consecutive-annual-deficit-in-2026/"
+      ],
+      "equipment_impact": "銀の需給逼迫見通しがやや緩和。銀を副産物とするCu/Au/Pb/Zn鉱山の長期収益想定・開発判断に影響し得るが、個別FIDの変更は未確認。",
+      "caveat": "11/12公表の未報告予測改訂を追補。供給不足量の予測であり銀価格予測ではない。",
+      "_source_date": "2026-11-16"
+    },
+    {
+      "id": "brent-goldman-forecast-2027",
+      "page": "Commodity",
+      "commodity": "Brent",
+      "published": "2026-11-15",
+      "verified_on": "2026-11-16",
+      "priority": "P1",
+      "metric": "Goldman Sachs 2027 calendar-year average Brent forecast",
+      "previous": "2026/10/16 GS公式コラム 2027年Brent平均 US$80/bbl",
+      "current": "11/15 GS顧客ノートをReutersが11/16報道：2027年平均 US$88/bbl、2027年末 US$78/bbl",
+      "values": {
+        "old_2027_forecast_USD_bbl": 80,
+        "new_2027_forecast_USD_bbl": 88,
+        "delta_USD_bbl": 8,
+        "new_year_end_2027_USD_bbl": 78,
+        "forecast_year": 2027
+      },
+      "confidence": "B",
+      "source_urls": [
+        "https://www.goldmansachs.com/insights/articles/will-oil-prices-decline-as-middle-east-supply-recovers",
+        "https://www.reuters.com/business/energy/oil-prices-fall-expectations-coming-supply-surplus-2026-11-16/"
+      ],
+      "equipment_impact": "オイルサンド2027年CAPEX評価の外部価格シナリオの一つ。原油現物販売価格やWCSディスカウントとは別系列で管理。",
+      "caveat": "11月版はReuters経由でありGS原文の全文未取得。10月と11月のモデル前提が同一か未検証。IEAの11/13需給改訂は再掲しない。",
+      "_source_date": "2026-11-16"
+    },
+    {
+      "id": "gold-20261116-intraday-low",
+      "page": "Commodity",
+      "commodity": "Gold",
+      "published": "2026-11-16",
+      "verified_on": "2026-11-16",
+      "priority": "P2",
+      "metric": "Spot gold intraday low",
+      "previous": "2026/11/13報告のCOMEX 12月金先物終値約US$3,879.70/oz (別指標)",
+      "current": "11/16スポット金が一時US$3,830/oz（2025年10月以来の安値）",
+      "values": {
+        "intraday_spot_low_USD_troy_oz": 3830,
+        "date": "2026-11-16",
+        "instrument": "spot_gold_intraday"
+      },
+      "confidence": "B",
+      "source_urls": [
+        "https://www.reuters.com/world/india/gold-edges-higher-investors-await-warsh-remarks-rate-signals-2026-11-16/"
+      ],
+      "equipment_impact": "金鉱山・開発案件の感応度上昇、特に高コスト鉱山のCAPEX・増産/休山判断を監視。",
+      "caveat": "前回値は先物、今回値はスポット日中安値。直接の前日比として扱わない。",
+      "_source_date": "2026-11-16"
+    },
+    {
+      "id": "commodity-20261116-brent-settlement",
+      "page": "Commodity",
+      "commodity": "Brent",
+      "published": "2026-11-16",
+      "verified_on": "2026-11-17",
+      "priority": "P1",
+      "metric": "front-month futures settlement USD/bbl",
+      "previous": "2026-11-13終値 US$95.84/bbl",
+      "current": "2026-11-16終値 US$92.44/bbl、前営業日比-US$3.40/bbl（約-3.55%）。",
+      "values": {
+        "previous_date": "2026-11-13",
+        "previous_USD_per_bbl": 95.84,
+        "current_date": "2026-11-16",
+        "current_USD_per_bbl": 92.44,
+        "change_USD_per_bbl": -3.4,
+        "change_percent": -3.55
+      },
+      "confidence": "B",
+      "source_urls": [
+        "https://www.reuters.com/business/energy/oil-prices-fall-expectations-coming-supply-surplus-2026-11-16/"
+      ],
+      "equipment_impact": "オイルサンドの実現販売価格・キャッシュフロー悪化リスク。単日変動だけから設備投資削減は断定不可。",
+      "caveat": "先物終値。11/17取引時間中価格や長期機関予測を混在させない。",
+      "_source_date": "2026-11-17"
+    },
+    {
+      "id": "commodity-20261116-wti-settlement",
+      "page": "Commodity",
+      "commodity": "WTI",
+      "published": "2026-11-16",
+      "verified_on": "2026-11-17",
+      "priority": "P1",
+      "metric": "front-month futures settlement USD/bbl",
+      "previous": "2026-11-13終値 US$88.56/bbl",
+      "current": "2026-11-16終値 US$85.72/bbl、前営業日比-US$2.84/bbl（約-3.21%）。",
+      "values": {
+        "previous_date": "2026-11-13",
+        "previous_USD_per_bbl": 88.56,
+        "current_date": "2026-11-16",
+        "current_USD_per_bbl": 85.72,
+        "change_USD_per_bbl": -2.84,
+        "change_percent": -3.21
+      },
+      "confidence": "B",
+      "source_urls": [
+        "https://www.reuters.com/business/energy/oil-prices-fall-expectations-coming-supply-surplus-2026-11-16/"
+      ],
+      "equipment_impact": "油砂事業者の価格マージンに下押し。WTIからWCSの差額を考慮した評価が必要。",
+      "caveat": "先物終値。",
+      "_source_date": "2026-11-17"
+    },
+    {
+      "id": "commodity-20261116-wcs-hardisty-differential",
+      "page": "Commodity",
+      "commodity": "WCS",
+      "published": "2026-11-16",
+      "verified_on": "2026-11-17",
+      "priority": "P2",
+      "metric": "Hardisty December-delivery WCS differential vs WTI USD/bbl",
+      "previous": "2026-11-13 Hardisty WCSのWTI比ディスカウント-US$26.20/bbl",
+      "current": "2026-11-16 -US$26.95/bblへ拡大（US$0.75/bbl悪化）。",
+      "values": {
+        "previous_date": "2026-11-13",
+        "previous_USD_per_bbl": -26.2,
+        "current_date": "2026-11-16",
+        "current_USD_per_bbl": -26.95,
+        "discount_widened_USD_per_bbl": 0.75,
+        "delivery_month": "2026-12",
+        "location": "Hardisty, Alberta"
+      },
+      "confidence": "B",
+      "source_urls": [
+        "https://boereport.com/2026/11/16/discount-on-western-canada-select-widens-64/amp/"
+      ],
+      "equipment_impact": "WTI自体の下落と重質油ディスカウント拡大で油砂収益への下押し圧力が増加。長期CAPEX変更は未確認。",
+      "caveat": "WCSの現物絶対価格ではなくWTIに対する価格差。",
+      "_source_date": "2026-11-17"
+    },
+    {
+      "id": "cm-20261118-platinum-wpic-2026-forecast",
+      "page": "Commodity",
+      "commodity": "Platinum",
+      "published": "2026-11-18",
+      "verified_on": "2026-11-18",
+      "priority": "P1",
+      "metric": "WPIC physical market balance forecast; koz (thousand troy oz)",
+      "previous": "WPIC 2026年需給 +265 koz 供給超過（2026-09-09予測）。2027年予測は未公表。",
+      "current": "WPIC 2026年見通し +468 koz 供給超過（前回比+203 koz）。2027年は新規予測として -279 kozの供給不足（前年差747 kozスイング）。需給差は市場価格予測ではない。",
+      "values": {
+        "forecast_year_2026_surplus_koz_previous": 265,
+        "forecast_year_2026_surplus_koz_current": 468,
+        "revision_koz": 203,
+        "forecast_year_2027_balance_koz": -279,
+        "forecast_year_2027_total_supply_koz": 7418,
+        "forecast_year_2027_total_demand_koz": 7696,
+        "released": "2026-11-18"
+      },
+      "confidence": "A",
+      "source_urls": [
+        "https://platinuminvestment.com/news"
+      ],
+      "equipment_impact": "Pt/PGE生産者（Ni-Cu鉱山の副産物を含む）の中期採算検証。2026年余剰拡大は短期圧力だが2027年不足予想は開発投資を支える可能性。世界需給と鉱山CAPEXは一対一では連動しない。",
+      "caveat": ""
+    },
+    {
+      "id": "cm-20261118-gold-spot-intraday",
+      "page": "Commodity",
+      "commodity": "Gold",
+      "published": "2026-11-18",
+      "verified_on": "2026-11-18",
+      "priority": "P1",
+      "metric": "Spot gold intraday US$/troy oz",
+      "previous": "2026-11-16に約US$3,830/ozの安値（前回既報、2026-11-17終値と直接比較しない）。",
+      "current": "2026-11-18 10:50 GMT現物価格US$3,769.68/oz、前日比約-2.1%。日中安値US$3,757/oz（2025年9月以来の低水準）。確定終値ではない。",
+      "values": {
+        "timestamp_UTC": "2026-11-18T10:50:00Z",
+        "spot_USD_per_oz": 3769.68,
+        "intraday_low_USD_per_oz": 3757.0,
+        "reported_daily_change_pct": -2.1
+      },
+      "confidence": "B",
+      "source_urls": [
+        "https://www.reuters.com/world/india/gold-slides-over-one-year-low-firm-dollar-us-rate-outlook-2026-11-18/"
+      ],
+      "equipment_impact": "Au鉱山の2027年金価前提、AISC余裕・FID感応度を更新。価格が急落しても個社のCAPEX繰延が確定したわけではない。",
+      "caveat": "現物日中値。先物終値やPEA長期価格と混同しない。"
+    },
+    {
+      "id": "cm-20261118-silver-spot-intraday",
+      "page": "Commodity",
+      "commodity": "Silver",
+      "published": "2026-11-18",
+      "verified_on": "2026-11-18",
+      "priority": "P2",
+      "metric": "Spot silver intraday US$/troy oz",
+      "previous": "2026-11-17の日中と比較する同定義の取引終値を本確認では未取得。",
+      "current": "2026-11-18 10:50 GMT現物US$45.79/oz、前日比約-3.4%、2025年10月以来の安値圏。",
+      "values": {
+        "timestamp_UTC": "2026-11-18T10:50:00Z",
+        "spot_USD_per_oz": 45.79,
+        "reported_daily_change_pct": -3.4
+      },
+      "confidence": "B",
+      "source_urls": [
+        "https://www.reuters.com/world/india/gold-slides-over-one-year-low-firm-dollar-us-rate-outlook-2026-11-18/"
+      ],
+      "equipment_impact": "銀主産鉱山・Au/Cu/Zn鉱山副産物クレジットを低下させる価格リスク。",
+      "caveat": ""
+    },
+    {
+      "id": "cm-20261118-platinum-spot-intraday",
+      "page": "Commodity",
+      "commodity": "Platinum",
+      "published": "2026-11-18",
+      "verified_on": "2026-11-18",
+      "priority": "P2",
+      "metric": "Spot platinum intraday US$/troy oz",
+      "previous": "2026-11-17同定義の確定現物終値未取得。",
+      "current": "2026-11-18 10:50 GMT現物US$1,382.26/oz、前日比約-3.4%。WPICの需給報告と市場価格の時間軸は区別。",
+      "values": {
+        "timestamp_UTC": "2026-11-18T10:50:00Z",
+        "spot_USD_per_oz": 1382.26,
+        "reported_daily_change_pct": -3.4
+      },
+      "confidence": "B",
+      "source_urls": [
+        "https://www.reuters.com/world/india/gold-slides-over-one-year-low-firm-dollar-us-rate-outlook-2026-11-18/"
+      ],
+      "equipment_impact": "Ni-Cu-PGE複合鉱山の副産物収益への影響。",
+      "caveat": ""
+    },
+    {
+      "id": "cm-20261118-palladium-spot-intraday",
+      "page": "Commodity",
+      "commodity": "Palladium",
+      "published": "2026-11-18",
+      "verified_on": "2026-11-18",
+      "priority": "P2",
+      "metric": "Spot palladium intraday US$/troy oz",
+      "previous": "2026-11-17同定義の確定現物終値未取得。",
+      "current": "2026-11-18 10:50 GMT現物US$950/oz、前日比約-2.2%。",
+      "values": {
+        "timestamp_UTC": "2026-11-18T10:50:00Z",
+        "spot_USD_per_oz": 950.0,
+        "reported_daily_change_pct": -2.2
+      },
+      "confidence": "B",
+      "source_urls": [
+        "https://www.reuters.com/world/india/gold-slides-over-one-year-low-firm-dollar-us-rate-outlook-2026-11-18/"
+      ],
+      "equipment_impact": "PGE含有鉱山の副産物実現価格リスク。",
+      "caveat": ""
+    },
+    {
+      "id": "cm-20261117-lme-copper-cashask",
+      "page": "Commodity",
+      "commodity": "Copper",
+      "published": "2026-11-17",
+      "verified_on": "2026-11-18",
+      "priority": "P2",
+      "metric": "LME Official cash Ask, USD/metric tonne",
+      "previous": "2026-11-16 LME Cash Ask US$13,375.00/t",
+      "current": "2026-11-17 LME Cash Ask US$13,225.50/t、前営業日比-1.12%。",
+      "values": {
+        "price_date": "2026-11-17",
+        "previous_date": "2026-11-16",
+        "previous_USD_per_t": 13375.0,
+        "current_USD_per_t": 13225.5,
+        "change_pct": -1.12,
+        "market_instrument": "LME Official Cash Ask"
+      },
+      "confidence": "A",
+      "source_urls": [
+        "https://www.lme.com/en/market-data/reports-and-data/lme-official-prices"
+      ],
+      "equipment_impact": "鉱山企業の足元価格感応度の監視。単日変動で設備投資を断定しない。",
+      "caveat": "2026-11-17と11-16のLME同一定義のCash Ask。"
+    },
+    {
+      "id": "cm-20261117-lme-zinc-cashask",
+      "page": "Commodity",
+      "commodity": "Zinc",
+      "published": "2026-11-17",
+      "verified_on": "2026-11-18",
+      "priority": "P2",
+      "metric": "LME Official cash Ask, USD/metric tonne",
+      "previous": "2026-11-16 LME Cash Ask US$3,848.00/t",
+      "current": "2026-11-17 LME Cash Ask US$3,776.00/t、前営業日比-1.87%。",
+      "values": {
+        "price_date": "2026-11-17",
+        "previous_date": "2026-11-16",
+        "previous_USD_per_t": 3848.0,
+        "current_USD_per_t": 3776.0,
+        "change_pct": -1.87,
+        "market_instrument": "LME Official Cash Ask"
+      },
+      "confidence": "A",
+      "source_urls": [
+        "https://www.lme.com/en/market-data/reports-and-data/lme-official-prices"
+      ],
+      "equipment_impact": "鉱山企業の足元価格感応度の監視。単日変動で設備投資を断定しない。",
+      "caveat": "2026-11-17と11-16のLME同一定義のCash Ask。"
+    },
+    {
+      "id": "cm-20261117-lme-nickel-cashask",
+      "page": "Commodity",
+      "commodity": "Nickel",
+      "published": "2026-11-17",
+      "verified_on": "2026-11-18",
+      "priority": "Info",
+      "metric": "LME Official cash Ask, USD/metric tonne",
+      "previous": "2026-11-16 LME Cash Ask US$15,805.00/t",
+      "current": "2026-11-17 LME Cash Ask US$15,790.00/t、前営業日比-0.09%。",
+      "values": {
+        "price_date": "2026-11-17",
+        "previous_date": "2026-11-16",
+        "previous_USD_per_t": 15805.0,
+        "current_USD_per_t": 15790.0,
+        "change_pct": -0.09,
+        "market_instrument": "LME Official Cash Ask"
+      },
+      "confidence": "A",
+      "source_urls": [
+        "https://www.lme.com/en/market-data/reports-and-data/lme-official-prices"
+      ],
+      "equipment_impact": "鉱山企業の足元価格感応度の監視。単日変動で設備投資を断定しない。",
+      "caveat": "2026-11-17と11-16のLME同一定義のCash Ask。"
+    },
+    {
+      "id": "cm-20261117-lme-cobalt-cashask",
+      "page": "Commodity",
+      "commodity": "Cobalt",
+      "published": "2026-11-17",
+      "verified_on": "2026-11-18",
+      "priority": "Info",
+      "metric": "LME Official cash Ask, USD/metric tonne",
+      "previous": "2026-11-16 LME Cash Ask US$33,080.00/t",
+      "current": "2026-11-17 LME Cash Ask US$33,080.00/t、前営業日比+0.00%。",
+      "values": {
+        "price_date": "2026-11-17",
+        "previous_date": "2026-11-16",
+        "previous_USD_per_t": 33080.0,
+        "current_USD_per_t": 33080.0,
+        "change_pct": 0.0,
+        "market_instrument": "LME Official Cash Ask"
+      },
+      "confidence": "A",
+      "source_urls": [
+        "https://www.lme.com/en/market-data/reports-and-data/lme-official-prices"
+      ],
+      "equipment_impact": "鉱山企業の足元価格感応度の監視。単日変動で設備投資を断定しない。",
+      "caveat": "2026-11-17と11-16のLME同一定義のCash Ask。"
+    },
+    {
+      "id": "cm-20261117-oil-brent-settlement",
+      "page": "Commodity",
+      "commodity": "Brent",
+      "published": "2026-11-17",
+      "verified_on": "2026-11-18",
+      "priority": "Info",
+      "metric": "Front-month futures settlement USD/bbl",
+      "previous": "2026-11-16先物終値 US$92.44/bbl",
+      "current": "2026-11-17先物終値 US$93.14/bbl、前日比+0.76%。",
+      "values": {
+        "price_date": "2026-11-17",
+        "previous_date": "2026-11-16",
+        "previous_USD_per_bbl": 92.44,
+        "current_USD_per_bbl": 93.14,
+        "change_pct": 0.76
+      },
+      "confidence": "B",
+      "source_urls": [
+        "https://www.reuters.com/business/energy/oil-slips-supply-surplus-outlook-despite-gulf-tensions-2026-11-17/"
+      ],
+      "equipment_impact": "Oil Sands事業者の実現価格に対する中期感応度を監視。WCS同条件の差分は未取得。",
+      "caveat": "先物終値。2026-11-18取引中価格と混在させない。"
+    },
+    {
+      "id": "cm-20261117-oil-wti-settlement",
+      "page": "Commodity",
+      "commodity": "WTI",
+      "published": "2026-11-17",
+      "verified_on": "2026-11-18",
+      "priority": "Info",
+      "metric": "Front-month futures settlement USD/bbl",
+      "previous": "2026-11-16先物終値 US$85.72/bbl",
+      "current": "2026-11-17先物終値 US$86.01/bbl、前日比+0.34%。",
+      "values": {
+        "price_date": "2026-11-17",
+        "previous_date": "2026-11-16",
+        "previous_USD_per_bbl": 85.72,
+        "current_USD_per_bbl": 86.01,
+        "change_pct": 0.34
+      },
+      "confidence": "B",
+      "source_urls": [
+        "https://www.reuters.com/business/energy/oil-slips-supply-surplus-outlook-despite-gulf-tensions-2026-11-17/"
+      ],
+      "equipment_impact": "Oil Sands事業者の実現価格に対する中期感応度を監視。WCS同条件の差分は未取得。",
+      "caveat": "先物終値。2026-11-18取引中価格と混在させない。"
+    }
+  ],
+  "provenance": {
+    "daily_sources": [
+      "mining_dashboard_updates_cumulative_2026-11-10_to_12.json",
+      "mining_dashboard_updates_2026-11-13.json",
+      "mining_dashboard_updates_2026-11-14.json",
+      "mining_dashboard_updates_2026-11-15.json",
+      "mining_dashboard_updates_2026-11-16.json",
+      "mining_dashboard_updates_2026-11-17.json"
+    ],
+    "scope": "Historical reported changes, not independently reverified in this build",
+    "note": "Quotes and forecasts reflect dates and definitions in each source, not live market prices.",
+    "latest_delta": "mining_dashboard_updates_2026-11-18.json",
+    "publication_status": "Offline consolidated file generated; no public dashboard write confirmed"
+  }
+}
