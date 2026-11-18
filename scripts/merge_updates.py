@@ -20,7 +20,7 @@ def valid(d):
   sources=[x.get("source")]+x.get("sources",[])+x.get("source_urls",[])
   if not any(str(s).startswith("https://") for s in sources if s): raise ValueError("Market source HTTPS required")
  for x in d.get("changes",[]):
-  if not x.get("name"): raise ValueError("Missing mine name")
+  if not (x.get("name") or x.get("project")): raise ValueError("Missing mine name or project")
 def unique(a,b,key):
  out={str(key(x)):x for x in a}
  for x in b:out[str(key(x))]=x
