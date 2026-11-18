@@ -76,7 +76,40 @@ function applyMines(data){
   if(typeof render==="function")render();
   return updates.size;
 }
+
+/* commodity-json-panel-v2 */
+function renderCommodityCards(data){
+ const grid=document.getElementById("cGrid");
+ if(!grid)return;
+ const records=Array.isArray(data.market_changes)?data.market_changes:[];
+ const norm=x=>String(x||"").toLowerCase().replace(/[^a-z0-9]/g,"");
+ const aliases={"ironore":"ironore","cokingcoal":"cokingcoal","thermalcoal":"thermalcoal","potash":"potash","chromite":"chromite","graphite":"graphite","molybdenum":"molybdenum","platinum":"platinum","palladium":"palladium","wcs":"wcs","wti":"wti","brent":"brent"};
+ const number=v=>typeof v==="number"&&Number.isFinite(v);
+ const asDate=x=>String(x.published||x.date||x.verified_on||x._source_date||"").slice(0,10);
+ const isForecast=x=>/forecast|outlook|annual.average|year.end|projection|予測|見通し|2027|2028/i.test(String(x.indicator||"")+" "+String(x.metric||"")) && !/futures settlement/i.test(String(x.indicator||""));
+ const sourceUrl=x=>typeof x.source==="string"&&/^https:\/\//i.test(x.source)?x.source:Array.isArray(x.source_urls)&&/^https:\/\//i.test(x.source_urls[0]||"")?x.source_urls[0]:"";
+ const all=records.filter(x=>x&&typeof x==="object"&&x.commodity&&asDate(x)).sort((a,b)=>asDate(b).localeCompare(asDate(a)));
+ for(const card of grid.querySelectorAll(".c-card")){
+   const name=norm((card.querySelector("h3 .c-meta")||{}).textContent);
+   const matched=all.filter(x=>norm(x.commodity)===name||(aliases[norm(x.commodity)]||"")===name);
+   let old=card.querySelector(".json-market-panel");if(old)old.remove();
+   const box=document.createElement("div");box.className="json-market-panel";box.style="border:1px solid #c3d8e8;background:#f2f8fc;border-radius:8px;margin:10px 0;padding:10px;font-size:12px";
+   if(!matched.length){box.textContent="JSON更新履歴：該当データ未取得。上記の参考価格は過去の静的スナップショットです。";card.querySelector(".spot-price")?.after(box);continue;}
+   const recentPrice=matched.find(x=>!isForecast(x)&&number(x.value)&&x.unit);
+   const forecast=matched.find(isForecast);
+   let html="<b>自動取得した公表データ</b><div style='margin-top:5px;color:#526478'>JSON基準日 "+safe(data.as_of||"未確認")+"</div>";
+   if(recentPrice){
+     html+="<p style='margin:7px 0'><b>確認値："+safe(recentPrice.value)+" "+safe(recentPrice.unit)+"</b>（"+safe(asDate(recentPrice))+"）<div>"+safe(recentPrice.indicator||"参考指標")+"</div></p>";
+   }else{html+="<p style='margin:7px 0'>比較可能な数値付き市場価格は取得されていません。</p>";}
+   if(forecast)html+="<div>予測・需給見通し："+safe(asDate(forecast))+" "+safe(forecast.indicator||forecast.metric||"")+" — "+safe(forecast.current||"詳細は更新履歴を参照")+"</div>";
+   const display=matched.slice(0,3);
+   html+="<details><summary>関連更新履歴 "+matched.length+"件</summary><ul style='padding-left:17px;margin:8px 0'>"+display.map(x=>"<li>"+safe(asDate(x))+"："+safe(x.indicator||x.metric||"")+" "+safe(x.current||"")+(sourceUrl(x)?" <a rel='noopener noreferrer' target='_blank' href='"+safe(sourceUrl(x))+"'>出典</a>":"")+"</li>").join("")+"</ul></details>";
+   box.innerHTML=html;card.querySelector(".spot-price")?.after(box);
+ }
+}
+
 function updateStatus(data,mineCount){
+ renderCommodityCards(data);
  const market=latest(data.market_changes,"date");
  const changes=latest(data.changes,"event_date");
  const summary='<div class="live-cols"><div class="live-stat"><b>データ基準日</b><div>'+safe(data.as_of||"未記載")+'</div></div><div class="live-stat"><b>鉱山関連更新</b><div>'+changes.length+' records</div></div><div class="live-stat"><b>市況・見通し更新</b><div>'+market.length+' records</div></div><div class="live-stat"><b>地図案件</b><div>'+(data.map_updates?.mines||[]).length+' records</div></div></div>';
