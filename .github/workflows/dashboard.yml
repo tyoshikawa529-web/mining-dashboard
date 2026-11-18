@@ -1,0 +1,39 @@
+name: Validate and publish mining dashboard
+on:
+  push:
+    branches: [main]
+    paths: ['index.html','mining_data_latest.json','updates/inbox/**','scripts/**','.github/workflows/dashboard.yml']
+  schedule:
+    - cron: '20 15 * * *'
+  workflow_dispatch:
+permissions:
+  contents: write
+  pages: write
+  id-token: write
+concurrency:
+  group: mining-dashboard-pages
+  cancel-in-progress: false
+jobs:
+  publish:
+    runs-on: ubuntu-latest
+    environment: github-pages
+    steps:
+      - uses: actions/checkout@v4
+      - name: Merge reviewed updates
+        run: python3 scripts/merge_updates.py
+      - name: Commit verified data
+        run: |
+          if ! git diff --quiet || [ -n "$(git ls-files --others --exclude-standard updates/processed)" ]; then
+            git config user.name "github-actions[bot]"
+            git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+            git add mining_data_latest.json updates/inbox updates/processed
+            git commit -m "Merge validated mining dashboard daily updates"
+            git push
+          fi
+      - name: Check JSON validity
+        run: python3 -m json.tool mining_data_latest.json > /dev/null
+      - uses: actions/configure-pages@v5
+      - uses: actions/upload-pages-artifact@v3
+        with:
+          path: .
+      - uses: actions/deploy-pages@v4
