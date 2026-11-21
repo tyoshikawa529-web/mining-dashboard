@@ -1,5 +1,5 @@
 {
-  "as_of": "2026-11-20",
+  "as_of": "2026-11-21",
   "schema": "mining-dashboard-consolidated-v1",
   "baseline": "2026-11-12 v1.4; later daily deltas",
   "map_updates": {
@@ -381,6 +381,20 @@
         "resource": "No MRE; surface rock samples are not mineral resources",
         "nextstep": "Evaluate Viper, Saddle and Wrangell mineralized zones; define follow-up drilling",
         "source": "https://www.globenewswire.com/news-release/2026/11/19/3406416/0/en/yukon-metals-identifies-new-copper-gold-zones-at-az-project-with-surface-samples-grading-up-to-10-41-copper-and-up-to-6-27-g-t-gold.html"
+      },
+      {
+        "country": "Finland",
+        "name": "Kartitsa Gold Deposit",
+        "commodity": "Gold",
+        "method": "Underground resource model (concept; future mine plan/FID not approved)",
+        "status": "Exploration / Resource definition; not producing",
+        "owner": "Endomines Finland Plc",
+        "operator": "Endomines Finland Plc (exploration)",
+        "output": "No production; potential processing at existing Pampalo plant, subject to studies",
+        "life": "Mine life not established; 154 koz not equivalent to 8 years of approved Kartitsa mine life",
+        "resource": "JORC 2012 Inferred 2.45 Mt @ 1.96 g/t Au (154 koz); NOT reserves, not yet economic viability proven",
+        "nextstep": "Detailed pathway-to-production evaluation early 2027; indicative development after Southern Gold Line start ~2030, potentially 2033-34, not FID or confirmed mine startup. Coordinates unverified: do not create/update lat/lng.",
+        "source": "https://www.inderes.dk/en/releases/inside-information-kartitsa-gold-resource-increases-to-more-than-150000-ounces-strengthening-endomines-long-term-production-potential"
       }
     ],
     "coordinates": [
@@ -1679,6 +1693,46 @@
         "selected_rock_sample_peak_cu_pct": 10.41,
         "selected_rock_sample_peak_au_gpt": 6.27
       }
+    },
+    {
+      "id": "mine-20261120-finland-kartitsa-inferred-resource-update",
+      "page": "Finland",
+      "country": "Finland",
+      "name": "Kartitsa Gold Deposit",
+      "commodity": "Gold",
+      "method": "Underground resource model (concept; future mine plan/FID not approved)",
+      "status": "Exploration / Resource definition; not producing",
+      "owner": "Endomines Finland Plc",
+      "operator": "Endomines Finland Plc (exploration)",
+      "event_date": "2026-11-20",
+      "reviewed_on": "2026-11-21",
+      "change_type": "mineral_resource_estimate_revision",
+      "previous": "2026-03-10 maiden JORC Inferred Resource: 2.49 Mt @ 1.55 g/t Au, 123.8 koz contained gold. March estimate had OP and UG portions.",
+      "current": "2026-11-20 updated JORC Inferred Resource: 2.45 Mt @ 1.96 g/t Au, 154.0 koz gold (~+25% contained ounces); all resource now classified in an optimized underground stope envelope; no current OP resource reported. NOT Mineral Reserves.",
+      "values": {
+        "resource_class": "Inferred",
+        "standard": "JORC 2012",
+        "effective_date": "2026-11-20",
+        "prior_2026_03_10": {
+          "tonnes_Mt": 2.49,
+          "grade_g_per_t_Au": 1.55,
+          "contained_gold_koz": 123.8
+        },
+        "current_2026_11_20": {
+          "tonnes_Mt": 2.45,
+          "grade_g_per_t_Au": 1.96,
+          "contained_gold_koz": 154
+        },
+        "resource_oz_growth_pct_approx": 25
+      },
+      "output": "No production; potential processing at existing Pampalo plant, subject to studies",
+      "resource": "JORC 2012 Inferred 2.45 Mt @ 1.96 g/t Au (154 koz); NOT reserves, not yet economic viability proven",
+      "life": "Mine life not established; 154 koz not equivalent to 8 years of approved Kartitsa mine life",
+      "nextstep": "Detailed pathway-to-production evaluation early 2027; indicative development after Southern Gold Line start ~2030, potentially 2033-34, not FID or confirmed mine startup. Coordinates unverified: do not create/update lat/lng.",
+      "source": "https://www.inderes.dk/en/releases/inside-information-kartitsa-gold-resource-increases-to-more-than-150000-ounces-strengthening-endomines-long-term-production-potential",
+      "confidence": "A",
+      "priority": "P2",
+      "equipment_impact": "No near-term fleet order evidenced. Potential underground drilling/development equipment and Pampalo shared processing after studies; monitor resource upgrades, PEA/PFS, financing and FID; milestone around 2033-34 is aspirational."
     }
   ],
   "market_changes": [
@@ -2848,6 +2902,115 @@
       "priority": "P3",
       "caveat": "Weekly change relative to November 13, not previous trading day.",
       "equipment_impact": "Follow changes in mine budgets, sustaining capital and aftermarket demand; one-day move alone does not establish equipment-sales outlook."
+    },
+    {
+      "id": "market-20261120-gold-pmi-dealer-ny-close",
+      "page": "Commodity",
+      "commodity": "Gold",
+      "date": "2026-11-20",
+      "indicator": "Precious Metals International desk New York Friday closing quote, USD/troy oz (NOT COMEX futures or LBMA fix)",
+      "value": 3531.11,
+      "previous_value": 3885.6,
+      "previous_date": "2026-11-13",
+      "unit": "USD/troy oz",
+      "weekly_change_pct": -9.12,
+      "previous": "2026-11-13 PMI desk New York Friday quote 3885.6 USD/troy oz",
+      "current": "2026-11-20 PMI desk New York Friday quote 3531.11 USD/troy oz; weekly -9.12%",
+      "source": "https://blog.pmi.ky/2026/11/20/the-precious-metals-week-in-review-november-20th-2026/",
+      "source_urls": [
+        "https://blog.pmi.ky/2026/11/20/the-precious-metals-week-in-review-november-20th-2026/",
+        "https://www.reuters.com/world/india/gold-set-worst-week-eight-months-firm-dollar-fed-hike-bets-weigh-2026-11-20/"
+      ],
+      "confidence": "B",
+      "priority": "P1",
+      "caveat": "Same-source weekly quote; cannot compare directly to LME or COMEX contracts or Reuters intraday spot. Separate time-series indicator.",
+      "equipment_impact": "Sustained price weakness may affect discretionary exploration, FIDs and growth CAPEX; no mine-specific fleet reductions are inferred from price alone."
+    },
+    {
+      "id": "market-20261120-silver-pmi-dealer-ny-close",
+      "page": "Commodity",
+      "commodity": "Silver",
+      "date": "2026-11-20",
+      "indicator": "Precious Metals International desk New York Friday closing quote, USD/troy oz (NOT COMEX futures or LBMA fix)",
+      "value": 41.12,
+      "previous_value": 49.15,
+      "previous_date": "2026-11-13",
+      "unit": "USD/troy oz",
+      "weekly_change_pct": -16.34,
+      "previous": "2026-11-13 PMI desk New York Friday quote 49.15 USD/troy oz",
+      "current": "2026-11-20 PMI desk New York Friday quote 41.12 USD/troy oz; weekly -16.34%",
+      "source": "https://blog.pmi.ky/2026/11/20/the-precious-metals-week-in-review-november-20th-2026/",
+      "source_urls": [
+        "https://blog.pmi.ky/2026/11/20/the-precious-metals-week-in-review-november-20th-2026/",
+        "https://www.reuters.com/world/india/gold-set-worst-week-eight-months-firm-dollar-fed-hike-bets-weigh-2026-11-20/"
+      ],
+      "confidence": "B",
+      "priority": "P1",
+      "caveat": "Same-source weekly quote; cannot compare directly to LME or COMEX contracts or Reuters intraday spot. Separate time-series indicator.",
+      "equipment_impact": "Sustained price weakness may affect discretionary exploration, FIDs and growth CAPEX; no mine-specific fleet reductions are inferred from price alone."
+    },
+    {
+      "id": "market-20261120-platinum-pmi-dealer-ny-close",
+      "page": "Commodity",
+      "commodity": "Platinum",
+      "date": "2026-11-20",
+      "indicator": "Precious Metals International desk New York Friday closing quote, USD/troy oz (NOT COMEX futures or LBMA fix)",
+      "value": 1301.15,
+      "previous_value": 1489.74,
+      "previous_date": "2026-11-13",
+      "unit": "USD/troy oz",
+      "weekly_change_pct": -12.66,
+      "previous": "2026-11-13 PMI desk New York Friday quote 1489.74 USD/troy oz",
+      "current": "2026-11-20 PMI desk New York Friday quote 1301.15 USD/troy oz; weekly -12.66%",
+      "source": "https://blog.pmi.ky/2026/11/20/the-precious-metals-week-in-review-november-20th-2026/",
+      "source_urls": [
+        "https://blog.pmi.ky/2026/11/20/the-precious-metals-week-in-review-november-20th-2026/",
+        "https://www.reuters.com/world/india/gold-set-worst-week-eight-months-firm-dollar-fed-hike-bets-weigh-2026-11-20/"
+      ],
+      "confidence": "B",
+      "priority": "P2",
+      "caveat": "Same-source weekly quote; cannot compare directly to LME or COMEX contracts or Reuters intraday spot. Separate time-series indicator.",
+      "equipment_impact": "Sustained price weakness may affect discretionary exploration, FIDs and growth CAPEX; no mine-specific fleet reductions are inferred from price alone."
+    },
+    {
+      "id": "market-20261120-palladium-pmi-dealer-ny-close",
+      "page": "Commodity",
+      "commodity": "Palladium",
+      "date": "2026-11-20",
+      "indicator": "Precious Metals International desk New York Friday closing quote, USD/troy oz (NOT COMEX futures or LBMA fix)",
+      "value": 890.99,
+      "previous_value": 1009.4,
+      "previous_date": "2026-11-13",
+      "unit": "USD/troy oz",
+      "weekly_change_pct": -11.73,
+      "previous": "2026-11-13 PMI desk New York Friday quote 1009.4 USD/troy oz",
+      "current": "2026-11-20 PMI desk New York Friday quote 890.99 USD/troy oz; weekly -11.73%",
+      "source": "https://blog.pmi.ky/2026/11/20/the-precious-metals-week-in-review-november-20th-2026/",
+      "source_urls": [
+        "https://blog.pmi.ky/2026/11/20/the-precious-metals-week-in-review-november-20th-2026/",
+        "https://www.reuters.com/world/india/gold-set-worst-week-eight-months-firm-dollar-fed-hike-bets-weigh-2026-11-20/"
+      ],
+      "confidence": "B",
+      "priority": "P2",
+      "caveat": "Same-source weekly quote; cannot compare directly to LME or COMEX contracts or Reuters intraday spot. Separate time-series indicator.",
+      "equipment_impact": "Sustained price weakness may affect discretionary exploration, FIDs and growth CAPEX; no mine-specific fleet reductions are inferred from price alone."
+    },
+    {
+      "id": "market-20261120-copper-lme-3m-1030gmt",
+      "page": "Commodity",
+      "commodity": "Copper",
+      "date": "2026-11-20",
+      "indicator": "LME three-month copper intraday at 10:30 GMT (NOT LME 3m official close)",
+      "value": 12310.5,
+      "unit": "USD/metric tonne",
+      "previous": "2026-11-19 3-month LME closing price 12,526 USD/t in existing dataset, NOT same timestamp/benchmark observation; no comparable previous_value used.",
+      "current": "2026-11-20 10:30 GMT LME 3-month US$12,310.50/t, -1.7% intraday per Reuters; weekly drop circa 8.2% as of this intraday report; low US$12,202/t.",
+      "weekly_change_pct_approx": -8.2,
+      "source": "https://www.brecorder.com/news/40449992",
+      "confidence": "B",
+      "priority": "P1",
+      "caveat": "Reuters mid-session indicative 10:30 GMT, not Friday exchange settlement. Do not overwrite Nov 19 closing-price series; index this as distinct indicator.",
+      "equipment_impact": "Copper mine expansion/FID economics more sensitive if downturn persists; project-level CAPEX and service contracts not changed on one week's price action."
     }
   ],
   "provenance": {
