@@ -1,5 +1,5 @@
 {
-  "as_of": "2026-11-21",
+  "as_of": "2026-11-22",
   "schema": "mining-dashboard-consolidated-v1",
   "baseline": "2026-11-12 v1.4; later daily deltas",
   "map_updates": {
@@ -395,6 +395,20 @@
         "resource": "JORC 2012 Inferred 2.45 Mt @ 1.96 g/t Au (154 koz); NOT reserves, not yet economic viability proven",
         "nextstep": "Detailed pathway-to-production evaluation early 2027; indicative development after Southern Gold Line start ~2030, potentially 2033-34, not FID or confirmed mine startup. Coordinates unverified: do not create/update lat/lng.",
         "source": "https://www.inderes.dk/en/releases/inside-information-kartitsa-gold-resource-increases-to-more-than-150000-ounces-strengthening-endomines-long-term-production-potential"
+      },
+      {
+        "country": "Mongolia",
+        "name": "Bayan Khundii Gold Mine",
+        "commodity": "Gold",
+        "method": "Open pit",
+        "status": "Operating",
+        "owner": "Erdene Resource Development Corp. / Mongolian Mining Corporation (50:50 economic JV through Erdene Mongol LLC)",
+        "operator": "Erdene Mongol LLC",
+        "output": "Q3 2026 gold produced and sold 11,853 oz (corporate Q3 release). Management interview 2026-11-20 targets 70,000 oz gold in 2027; NOT formal updated production guidance.",
+        "life": "Unchanged; no updated reserve-based mine life in this event",
+        "resource": "No updated JORC/NI 43-101 resource or reserve announced. CEO interview cites Dark Horse high-grade surface ore ~50,000 oz near 7 g/t Au (managerial commentary, NOT a new MRE).",
+        "nextstep": "Dark Horse satellite pit originally scheduled 2028: evaluate acceleration to mid-2027, timing decision targeted Q1 2027. Heap-leach construction only a management proposal for late 2027/early 2028 pending JV board approval and further studies. ~20% CIP throughput expansion under consideration; 100,000 oz/y is an aspirational growth scenario, not sanctioned.",
+        "source": "https://www.cruxinvestor.com/posts/erdene-targets-70-000-ounces-of-gold-in-2027-as-bayan-khundii-grade-rises"
       }
     ],
     "coordinates": [
@@ -1733,6 +1747,47 @@
       "confidence": "A",
       "priority": "P2",
       "equipment_impact": "No near-term fleet order evidenced. Potential underground drilling/development equipment and Pampalo shared processing after studies; monitor resource upgrades, PEA/PFS, financing and FID; milestone around 2033-34 is aspirational."
+    },
+    {
+      "id": "mn-20261120-bayan-khundii-2027-production-dark-horse-timing",
+      "page": "Mongolia",
+      "country": "Mongolia",
+      "name": "Bayan Khundii Gold Mine",
+      "commodity": "Gold",
+      "method": "Open pit",
+      "status": "Operating",
+      "owner": "Erdene Resource Development Corp. / Mongolian Mining Corporation (50:50 economic JV through Erdene Mongol LLC)",
+      "operator": "Erdene Mongol LLC",
+      "event_date": "2026-11-20",
+      "publication_date": "2026-11-21",
+      "reviewed_on": "2026-11-22",
+      "change_type": "management_2027_production_target_and_dark_horse_schedule_proposal",
+      "previous": "2026-11-04 Q3 company results: Q3 gold production/sales 11,853 oz, processed 164,000 t ore at 2.3 g/t, and Dark Horse heap-leach assessment; no formal updated 2027 annual gold target in Q3 release. In the later CEO interview the previous Dark Horse satellite-pit ore schedule is described as 2028.",
+      "current": "2026-11-20 CEO interview (published Nov 21): Bayan Khundii 2027 production target ~70,000 oz gold (management aspiration), with Dark Horse high-grade (~50 koz at ~7 g/t as described by CEO) proposed to advance from 2028 to mid-2027 subject to Q1 2027 decision. Management considers heap-leach construction late 2027/early 2028, then ~20% CIP plant throughput uplift; ~100,000 oz/y eventual output scenario is not approved capex or formal guidance.",
+      "values": {
+        "prior_dark_horse_ore_year": 2028,
+        "proposed_dark_horse_start": "2027-H1/H2 midpoint (mid-2027)",
+        "target_2027_gold_production_oz": 70000,
+        "dark_horse_mgmt_commentary_gold_oz_approx": 50000,
+        "dark_horse_mgmt_commentary_gold_grade_g_per_t_approx": 7,
+        "potential_cip_throughput_increase_pct_approx": 20,
+        "long_term_gold_output_oz_per_year_aspirational": 100000,
+        "q3_2026_gold_produced_sold_oz": 11853,
+        "target_final_dark_horse_timing_decision": "2027-Q1",
+        "potential_heap_leach_construction": "2027-H2 to 2028-H1"
+      },
+      "resource": "No updated JORC/NI 43-101 resource or reserve announced. CEO interview cites Dark Horse high-grade surface ore ~50,000 oz near 7 g/t Au (managerial commentary, NOT a new MRE).",
+      "output": "Q3 2026 gold produced and sold 11,853 oz (corporate Q3 release). Management interview 2026-11-20 targets 70,000 oz gold in 2027; NOT formal updated production guidance.",
+      "life": "Unchanged; no updated reserve-based mine life in this event",
+      "nextstep": "Dark Horse satellite pit originally scheduled 2028: evaluate acceleration to mid-2027, timing decision targeted Q1 2027. Heap-leach construction only a management proposal for late 2027/early 2028 pending JV board approval and further studies. ~20% CIP throughput expansion under consideration; 100,000 oz/y is an aspirational growth scenario, not sanctioned.",
+      "source": "https://www.cruxinvestor.com/posts/erdene-targets-70-000-ounces-of-gold-in-2027-as-bayan-khundii-grade-rises",
+      "source_urls": [
+        "https://www.cruxinvestor.com/posts/erdene-targets-70-000-ounces-of-gold-in-2027-as-bayan-khundii-grade-rises",
+        "https://erdene.com/erdene-announces-q3-2026-results/"
+      ],
+      "confidence": "B: Direct CEO interview as reported by interviewer; targets/plans not ratified in new regulatory filing or company press release",
+      "priority": "P2",
+      "equipment_impact": "Potential incremental open-pit drill/blast/load/haul and support-fleet utilization for Dark Horse, road/earthworks and materials handling for heap-leach construction, and incremental plant maintenance if ~20% processing expansion sanctioned. No confirmed order, capital budget or FID; monitor Q1 2027 JV decision."
     }
   ],
   "market_changes": [
