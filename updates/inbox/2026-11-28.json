@@ -1,0 +1,166 @@
+{
+  "as_of": "2026-11-28",
+  "changes": [
+    {
+      "id": "ca-20261127-marathon-convertible-note-close",
+      "page": "Canada",
+      "country": "Canada",
+      "name": "Marathon Copper-Palladium Project",
+      "commodity": "Copper; Palladium; Platinum; Gold; Silver",
+      "method": "Open pit",
+      "status": "Construction",
+      "event_date": "2026-11-27",
+      "publication_date": "2026-11-27",
+      "reviewed_on": "2026-11-28",
+      "change_type": "convertible_note_financing_close",
+      "previous": "September 14 financing commitments included $100m convertible notes; November 24 equipment awards already recorded.",
+      "current": "Generation Mining completed $100m unsecured subordinated convertible note offering, $50m each from CGF and CIB; 9% annual interest, initial conversion $0.90/share, final TSX approval outstanding. Senior project facilities definitive documentation still pending; not a new incremental $100m above prior commitments.",
+      "values": {
+        "gross_proceeds_million": 100,
+        "cgf_million": 50,
+        "cib_million": 50,
+        "currency": "CAD (Canadian issuer financing; $ in release)",
+        "annual_interest_pct": 9,
+        "conversion_price": 0.9,
+        "latest_maturity": "2037-11-27"
+      },
+      "source": "https://genmining.com/news/2026/generation-mining-completes-100-million-convertible-note-offering/",
+      "source_urls": [
+        "https://genmining.com/news/2026/generation-mining-completes-100-million-convertible-note-offering/",
+        "https://genmining.com/news/2026/generation-mining-secures-full-project-financing-t-15448/"
+      ],
+      "confidence": "A (issuer release; final TSX approval pending)",
+      "priority": "P1",
+      "equipment_impact": "建設資金の実行確度改善。CAT fleet選定済みのため補助機械、レンタル、All Makes Aftermarketを注視。"
+    },
+    {
+      "id": "fi-20261127-laiva-restart-financing-rto",
+      "page": "Finland",
+      "country": "Finland",
+      "name": "Laivakangas (Laiva) Gold Mine",
+      "commodity": "Gold",
+      "method": "Open pit",
+      "status": "Restart evaluation",
+      "event_date": "2026-11-27",
+      "publication_date": "2026-11-27",
+      "reviewed_on": "2026-11-28",
+      "change_type": "restart_financing_and_rto_update",
+      "previous": "RTO and environmental permit appeal pending; mine restart being evaluated.",
+      "current": "Updated CSE listing statement submitted. Nebari affiliate bridge facility signed Oct 8 for up to US$15m, first US$5m advanced Oct 9, remaining US$10m conditional; maturity Oct 9 2027. Approx. 15,000m drilling completed. Environmental permit leave to appeal pending; no RTO close or commercial restart confirmed.",
+      "values": {
+        "bridge_usd_max": 15000000,
+        "bridge_usd_advanced": 5000000,
+        "bridge_usd_conditional": 10000000,
+        "maturity": "2027-10-09",
+        "drilling_m_approx": 15000,
+        "existing_plant_capacity_tpd": 6000
+      },
+      "source": "https://edgemontgold.com/news-releases/edgemont-provides-updates-on-transaction-with-laiva-gold-2026-11-27/",
+      "source_urls": [
+        "https://edgemontgold.com/news-releases/edgemont-provides-updates-on-transaction-with-laiva-gold-2026-11-27/",
+        "https://www.laivagold.com/_resources/news/nr-20261127.pdf"
+      ],
+      "confidence": "A (issuer releases; financing and permit conditions remain)",
+      "priority": "P2",
+      "equipment_impact": "再開時の既存設備点検・再生・更新、露天掘り機械と選鉱設備保守の可能性。現段階では探鉱・調査中心。"
+    },
+    {
+      "id": "ca-20261123-kearney-bev-trial",
+      "page": "Canada",
+      "country": "Canada",
+      "name": "Kearney Graphite Mine",
+      "commodity": "Graphite",
+      "method": "Surface mine (restart project)",
+      "status": "Restart evaluation",
+      "event_date": "2026-11-23",
+      "publication_date": "2026-11-23",
+      "reviewed_on": "2026-11-28",
+      "change_type": "battery_electric_haulage_trial_and_restart_target",
+      "previous": "Previously producing mine; restart and feasibility evaluation underway.",
+      "current": "GBM announced NRCan-funded MEDATech battery-electric vocational haul truck trial (22 tonne payload, week-long field work with digital modelling); GGT supports. Full mine restart targeted by 2028 or earlier, conditional. No fleet purchase order or commercial operation confirmed.",
+      "values": {
+        "truck_payload_tonnes": 22,
+        "field_trial_duration_weeks": 1,
+        "full_restart_target_year": 2028
+      },
+      "source": "https://www.globalbatterymaterials.com/press-release/global-battery-materials-hosts-battery-electric-haul-truck-test-at-kearney-graphite-mine/",
+      "confidence": "A (issuer release; target and test only)",
+      "priority": "P2",
+      "equipment_impact": "BEV retrofit・充電・電源・現場支援の実証事例。大型鉱山トラックへの適用や発注は未確認。"
+    }
+  ],
+  "market_changes": [
+    {
+      "id": "market-20261127-copper-lme-3m-close",
+      "page": "Commodity",
+      "commodity": "Copper",
+      "date": "2026-11-27",
+      "indicator": "LME 3-month closing price",
+      "previous_value": 11872,
+      "value": 12251,
+      "unit": "USD/metric tonne",
+      "day_change_pct": 3.19,
+      "previous": "11872",
+      "current": "12251",
+      "source": "https://www.lme.com/market-data/reports-and-data/lme-closing-prices",
+      "confidence": "A (market publisher; series-specific)",
+      "priority": "P2",
+      "equipment_impact": "持続すれば鉱山収益・設備投資余力にプラス。短期変動のみでは設備発注の判断不可。"
+    },
+    {
+      "id": "market-20261127-cobalt-lme-cash-ask",
+      "page": "Commodity",
+      "commodity": "Cobalt",
+      "date": "2026-11-27",
+      "indicator": "LME cash official ask",
+      "previous_value": 43865,
+      "value": 46145,
+      "unit": "USD/metric tonne",
+      "day_change_pct": 5.2,
+      "previous": "43865",
+      "current": "46145",
+      "source": "https://www.lme.com/Market-data/Reports-and-data/LME-Official-Prices",
+      "confidence": "A (market publisher; series-specific)",
+      "priority": "P2",
+      "equipment_impact": "持続すれば鉱山収益・設備投資余力にプラス。短期変動のみでは設備発注の判断不可。"
+    },
+    {
+      "id": "market-20261127-lithium-smm-carbonate-weekly",
+      "page": "Commodity",
+      "commodity": "Lithium",
+      "date": "2026-11-27",
+      "indicator": "SMM China battery-grade lithium carbonate week-end assessment",
+      "previous_value": null,
+      "value": 84350,
+      "unit": "CNY/metric tonne",
+      "previous": "Prior week-end price not explicitly stated in source",
+      "current": "84,350; weekly change -7.8%",
+      "source": "https://news.metal.com/newscontent/7LRXMPRVURGJO3WPKZ75BQBGVC4BG6UJIWQR7DQ-brazil-spodumene-falls-to-1105t-as-lithium-carbonate-slips-below-cost",
+      "confidence": "A (market publisher; series-specific)",
+      "priority": "P2",
+      "equipment_impact": "価格低迷が長引けば新規鉱山の資金調達・設備投資に下押し。",
+      "week_change_pct": -7.8
+    },
+    {
+      "id": "market-20261127-lithium-smm-australian-spodumene-weekly",
+      "page": "Commodity",
+      "commodity": "Lithium",
+      "date": "2026-11-27",
+      "indicator": "SMM Australian brands spodumene index CIF China, week-end assessment",
+      "previous_value": null,
+      "value": 1060,
+      "unit": "USD/metric tonne",
+      "previous": "Prior week-end price not explicitly stated in source",
+      "current": "1,060; weekly change -10.5%; distinct weekly change, not new daily decline",
+      "source": "https://news.metal.com/newscontent/7LRXMPRVURGJO3WPKZ75BQBGVC4BG6UJIWQR7DQ-brazil-spodumene-falls-to-1105t-as-lithium-carbonate-slips-below-cost",
+      "confidence": "A (market publisher; series-specific)",
+      "priority": "P2",
+      "equipment_impact": "価格低迷が長引けば新規鉱山の資金調達・設備投資に下押し。",
+      "week_change_pct": -10.5
+    }
+  ],
+  "map_updates": {
+    "mines": [],
+    "coordinates": []
+  }
+}
